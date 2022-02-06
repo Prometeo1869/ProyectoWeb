@@ -1,0 +1,9 @@
+.navbar img {
+    border-radius: 10em;
+    cursor: pointer;
+    height: 8vh;
+}
+.navbar {
+    justify-content: space-between;
+
+}
