@@ -1,9 +1,15 @@
 .navbar img {
-    border-radius: 10em;
     cursor: pointer;
-    height: 8vh;
+    height: 6vh;
 }
-.navbar {
-    justify-content: space-between;
+.fondo {
+    background: url("../img/fondo.jpg") center;
+    background-size: cover; 
+    height: 14vh;
+}
+.contenido {
+    height: 76vh;
+    border: 5px solid white;
+}
 
-}
+
