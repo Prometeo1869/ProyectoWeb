@@ -3,14 +3,14 @@
     max-height: 5vh;
 }
 .fondo {
-    background: url("../img/fondo.jpg") center;
+    background: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.3)), url("../img/fondo.jpg") center;
     background-size: cover; 
-    height: 12vh;
+    height: 14vh;
 }
 .contenido {
     position: fixed;
     bottom: 0px;
-    height: 80vh;
+    height: 78vh;
     width: 100vw;
     border: 5px solid white;
     border-radius: 10px;
@@ -24,5 +24,6 @@
 .barra {
     height: 7vh;
 }
+
 
 
