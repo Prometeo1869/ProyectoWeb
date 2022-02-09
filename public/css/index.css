@@ -1,15 +1,28 @@
 .navbar img {
     cursor: pointer;
-    height: 6vh;
+    max-height: 5vh;
 }
 .fondo {
     background: url("../img/fondo.jpg") center;
     background-size: cover; 
-    height: 14vh;
+    height: 12vh;
 }
 .contenido {
-    height: 76vh;
+    position: fixed;
+    bottom: 0px;
+    height: 80vh;
+    width: 100vw;
     border: 5px solid white;
+    border-radius: 10px;
+}
+.header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+.barra {
+    height: 7vh;
 }
 
 
