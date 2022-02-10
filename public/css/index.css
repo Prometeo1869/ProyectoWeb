@@ -1,9 +1,9 @@
 .navbar img {
-    cursor: pointer;
     max-height: 5vh;
+    line-height: 7vh;
 }
 .fondo {
-    background: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.3)), url("../img/fondo.jpg") top;
+    background: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.3)), url("../img/fondo.jpg") bottom;
     background-size: cover; 
     height: 14vh;
 }
@@ -23,19 +23,20 @@
 }
 .barra {
     height: 7vh;
-    background-color: rgb(0, 44, 0);
+    background-color: #2d4885;
 }
-.barra p {
+.titulo {
     color: white;
     font-family: MissionScript; 
-    font-size:xx-large;  
+    font-size:x-large;  
+    line-height: 7vh;
 }
 .menu {
-    background-color: #d1a964;
+    background-color: #2d4885;
 }
 @font-face {
     font-family: MissionScript;
     src: url('../font/Mission-Script.otf') format('opentype');
     font-style: italic;
-    font-weight: bold;
+    font-weight: normal;
   }
