@@ -1,19 +1,49 @@
+* {
+    margin 0;
+    box-sizing: border-box;
+    scrollbar: none;
+}
+::-webkit-scrollbar {
+    display: none;
+    }
+body {
+    background-color: #546986;
+    font-family: Candara, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+.barra {
+    background-color: #384861;
+    height: 7vh;
+    list-style: none;
+    font-weight: bold;
+}
 .navbar img {
     max-height: 5vh;
     line-height: 7vh;
 }
-.fondo {
-    background: linear-gradient(rgba(255, 255, 255, 0.3),rgba(255, 255, 255, 0.3)), url("../img/fondo.jpg") bottom;
-    background-size: cover; 
-    height: 14vh;
+.listado {
+    max-width: 992px;
+    margin: 0 auto;
+}
+.nav-link {
+    border-radius: 10px;
+    margin-right: 3em;
+    color: #14d4a5;
+}
+.nav-link:hover {
+    background-color: #546986;
+    transition: 0.9s;
+}
+.menu {
+    background-color: #546986cc ;
+    height: 10vh;
 }
 .contenido {
-    position: fixed;
     bottom: 0px;
-    height: 78vh;
+    height: 100vh;
     width: 100vw;
-    border: 5px solid white;
-    border-radius: 10px;
+    padding: 10vw ;
+    
 }
 .header {
     position: fixed;
@@ -21,22 +51,16 @@
     left: 0px;
     right: 0px;
 }
-.barra {
-    height: 7vh;
-    background-color: #2d4885;
-}
-.titulo {
-    color: white;
-    font-family: MissionScript; 
-    font-size:x-large;  
-    line-height: 7vh;
-}
-.menu {
-    background-color: #2d4885;
-}
+
 @font-face {
     font-family: MissionScript;
     src: url('../font/Mission-Script.otf') format('opentype');
-    font-style: italic;
-    font-weight: normal;
-  }
+}
+/* @colores {
+    gris claro: #c7c8d1;
+    gris: #546986;
+    gris oscuro: #384861;
+    turquesa: #14d4a5;
+    salmon: #bf4d3f;
+
+}*/
