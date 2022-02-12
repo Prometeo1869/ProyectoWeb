@@ -1,0 +1,23 @@
+:root {
+    --color-primario: #546986;
+    --color-secundario: #384861;
+    --color-terciario: #c7c8d1;
+    --boton-turquesa: #14d4a5;
+    --boton-salmon: #bf4d3f;
+    --boton-naranja: #ffa500;
+    --color-texto: black;
+    --color-texto-inverso: white;
+}
+::-webkit-scrollbar {
+    display: none;
+    }
+body {
+    font-family: Cardana, Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--color-primario);
+    color: var(--color-texto-inverso);
+    text-align: justify;
+}
+a {
+    text-decoration: none;
+    color: var(--color-texto);
+}

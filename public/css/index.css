@@ -7,18 +7,16 @@
     }
 body {
     background-color: #546986;
-    font-family: Candara, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: Candara, Verdana, 'Segoe UI', Tahoma, Geneva, sans-serif;
     text-align: justify;
 }
 .barra {
     background-color: #384861;
-    height: 7vh;
     list-style: none;
     font-weight: bold;
 }
 .navbar img {
-    max-height: 5vh;
-    line-height: 7vh;
+    height: 50px;
 }
 .listado {
     max-width: 992px;
@@ -42,7 +40,6 @@ body {
     height: 100vh;
     width: 100vw;
     padding: 10vw ;
-    
 }
 .header {
     position: fixed;

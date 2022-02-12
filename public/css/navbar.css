@@ -1,0 +1,39 @@
+.topheader {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    background-color: var(--color-secundario);
+    box-shadow: 0 4px 5px var(--color-primario);
+}
+.topnav {
+    display:flex;
+    justify-content:space-between;
+}
+/*logo home*/
+.logo {
+    display: flex;
+    padding: 10px 0 0 10px;
+}
+.logo img {
+    height: 50px;
+    width: auto;
+}
+/*Menu*/
+.menu {
+    display: flex;
+    list-style: none;
+    padding-top: 10px;
+}
+.menu li {
+    padding: 0 15px;
+    
+}
+.menu a {
+    color: var(--boton-naranja);
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 50px;
+    text-transform: uppercase;
+}
+

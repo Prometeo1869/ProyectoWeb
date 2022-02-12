@@ -1,0 +1,6 @@
+.indice {
+    background-color: var(--color-primario);
+    position: fixed;
+    bottom: 60px;
+    height: 100px;
+}
