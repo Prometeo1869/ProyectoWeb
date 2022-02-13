@@ -10,11 +10,11 @@
     height: 40px;
 }
 /*MENU*/
-.menu {
+.nav-menu {
     max-width: 992px;
     margin: 0 auto;
 }
-.menu a {
+.nav-menu a {
     border-radius: 10px;
 }
 /*COLORES MENU*/
@@ -23,93 +23,61 @@
 }
 .inicioh a:hover {
     color: var(--text-naranja);
-    background: linear-gradient(
-        195deg,
-        var(--bg-claro),
-        var(--bg-oscuro-max) 40%);
+    background: var(--degradado);
 }
-.cultivos {
+.granja {
     color: var(--text-turquesa);
 }
-.cultivosh a:hover {
+.granjah a:hover {
     color: var(--text-turquesa);
-    background: linear-gradient(
-        195deg,
-        var(--bg-claro),
-        var(--bg-oscuro-max) 40%);
+    background: var(--degradado);
 }
 .eventos {
     color: var(--text-salmon);
 }
 .eventosh a:hover {
     color: var(--text-salmon);
-    background: linear-gradient(
-        195deg,
-        var(--bg-claro),
-        var(--bg-oscuro-max) 40%);
+    background: var(--degradado);
 }
 .aldeanos {
     color: violet;
 }
 .aldeanosh a:hover {
     color: violet;
-    background: linear-gradient(
-        195deg,
-        var(--bg-claro),
-        var(--bg-oscuro-max) 40%);
+    background: var(--degradado);
 }
 .mapa {
     color: chartreuse;
 }
 .mapah a:hover {
     color: chartreuse;
-    background: linear-gradient(
-        195deg,
-        var(--bg-claro),
-        var(--bg-oscuro-max) 40%);
+    background: var(--degradado);
 }
-.otros {
+.mas {
     color: chocolate;
 }
-.otrosh a:hover {
+.mash a:hover {
     color: chocolate;
-    background: linear-gradient(
-        195deg,
-        var(--bg-claro),
-        var(--bg-oscuro-max) 40%);
+    background: var(--degradado);
 }
+/*BOTÓN BARRAS*/
 .nav-toggle {
     color: orange;
     background: none;
     border: none;
-    font-size: 40px;
+    font-size: 35px;
     display: none;
 }
-/*@media (max-width: 1150px)  {
-    .logo {
-        height: 40px;
+@media (max-width: 768px) {
+
+    .nav-toggle {
+        display: flex;
     }
-    .menu a {
-        margin-right: 2vw;
+    #desplegable {
+        height: auto;
+        overflow-y: auto;
     }
-}
-@media (max-width: 1060px)  {
-    .menu a {
-        margin-right: 1vw;
-    }
-}
-@media (max-width: 992px) {
-    .logo {
-        height: 35px;
-    }
-    .menu {
-        font-size: 17px;;
+    .nav-item a:hover {
+        background: var(--bg-oscuro-max);
     }
 }
-@media (max-width: 910px) {
-    .logo {
-        height: 35px;
-    }
-    .menu {
-        font-size: 16px;;
-    }*/

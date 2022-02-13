@@ -8,6 +8,7 @@
     --text-naranja: #ffa500;
     --text-oscuro: black;
     --text-claro: beige;
+    --degradado: linear-gradient(195deg, #546986, #1b2638 30%);
 }
 * {
     box-sizing: border-box;
@@ -35,5 +36,10 @@ a {
 .contenido {
     height: 100vh;
     width: 100vw;
-    padding: 20vh 5vw;
+    padding: 20vh 10vw;
+}
+@media (max-width: 768px) {
+    .contenido {
+        padding: 11vh 5vw;
+    }
 }
