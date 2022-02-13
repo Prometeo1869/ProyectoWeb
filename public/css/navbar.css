@@ -7,7 +7,7 @@
 }
 /*LOGO*/
 .logo {
-    height: 50px;
+    height: 40px;
 }
 /*MENU*/
 .menu {
@@ -16,14 +16,13 @@
 }
 .menu a {
     border-radius: 10px;
-    margin-right: 1vw;
 }
 /*COLORES MENU*/
-.comienzo {
-    color: var(--text-salmon);
+.inicio {
+    color: var(--text-naranja);
 }
-.comienzoh a:hover {
-    color: var(--text-salmon);
+.inicioh a:hover {
+    color: var(--text-naranja);
     background: linear-gradient(
         195deg,
         var(--bg-claro),
@@ -40,10 +39,10 @@
         var(--bg-oscuro-max) 40%);
 }
 .eventos {
-    color: var(--text-naranja);
+    color: var(--text-salmon);
 }
 .eventosh a:hover {
-    color: var(--text-naranja);
+    color: var(--text-salmon);
     background: linear-gradient(
         195deg,
         var(--bg-claro),
@@ -59,30 +58,20 @@
         var(--bg-claro),
         var(--bg-oscuro-max) 40%);
 }
-.granja {
+.mapa {
     color: chartreuse;
 }
-.granjah a:hover {
+.mapah a:hover {
     color: chartreuse;
     background: linear-gradient(
         195deg,
         var(--bg-claro),
         var(--bg-oscuro-max) 40%);
 }
-.pesca {
-    color: aqua;
-}
-.pescah a:hover {
-    color: aqua;
-    background: linear-gradient(
-        195deg,
-        var(--bg-claro),
-        var(--bg-oscuro-max) 40%);
-}
-.mineria {
+.otros {
     color: chocolate;
 }
-.mineriah a:hover {
+.otrosh a:hover {
     color: chocolate;
     background: linear-gradient(
         195deg,
