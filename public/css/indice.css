@@ -1,6 +1,6 @@
 .indice {
-    background-color: var(--color-primario);
-    position: fixed;
-    bottom: 60px;
-    height: 100px;
+    background-color: #546986cc ;
+    height: 10vh;
+    text-decoration: none;
 }
+

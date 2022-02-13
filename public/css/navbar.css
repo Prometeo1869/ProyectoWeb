@@ -1,39 +1,126 @@
-.topheader {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    background-color: var(--color-secundario);
-    box-shadow: 0 4px 5px var(--color-primario);
-}
+/*BARRA DE NAVEGACIÓN*/
 .topnav {
-    display:flex;
-    justify-content:space-between;
-}
-/*logo home*/
-.logo {
-    display: flex;
-    padding: 10px 0 0 10px;
-}
-.logo img {
-    height: 50px;
-    width: auto;
-}
-/*Menu*/
-.menu {
-    display: flex;
+    background-color: var(--bg-oscuro);
     list-style: none;
-    padding-top: 10px;
+    font-weight: bold;
+    box-shadow: 0 0 3px 3px var(--bg-oscuro-max);
 }
-.menu li {
-    padding: 0 15px;
-    
+/*LOGO*/
+.logo {
+    height: 50px;
+}
+/*MENU*/
+.menu {
+    max-width: 992px;
+    margin: 0 auto;
 }
 .menu a {
-    color: var(--boton-naranja);
-    font-size: 18px;
-    font-weight: bold;
-    line-height: 50px;
-    text-transform: uppercase;
+    border-radius: 10px;
+    margin-right: 1vw;
 }
-
+/*COLORES MENU*/
+.comienzo {
+    color: var(--text-salmon);
+}
+.comienzoh a:hover {
+    color: var(--text-salmon);
+    background: linear-gradient(
+        195deg,
+        var(--bg-claro),
+        var(--bg-oscuro-max) 40%);
+}
+.cultivos {
+    color: var(--text-turquesa);
+}
+.cultivosh a:hover {
+    color: var(--text-turquesa);
+    background: linear-gradient(
+        195deg,
+        var(--bg-claro),
+        var(--bg-oscuro-max) 40%);
+}
+.eventos {
+    color: var(--text-naranja);
+}
+.eventosh a:hover {
+    color: var(--text-naranja);
+    background: linear-gradient(
+        195deg,
+        var(--bg-claro),
+        var(--bg-oscuro-max) 40%);
+}
+.aldeanos {
+    color: violet;
+}
+.aldeanosh a:hover {
+    color: violet;
+    background: linear-gradient(
+        195deg,
+        var(--bg-claro),
+        var(--bg-oscuro-max) 40%);
+}
+.granja {
+    color: chartreuse;
+}
+.granjah a:hover {
+    color: chartreuse;
+    background: linear-gradient(
+        195deg,
+        var(--bg-claro),
+        var(--bg-oscuro-max) 40%);
+}
+.pesca {
+    color: aqua;
+}
+.pescah a:hover {
+    color: aqua;
+    background: linear-gradient(
+        195deg,
+        var(--bg-claro),
+        var(--bg-oscuro-max) 40%);
+}
+.mineria {
+    color: chocolate;
+}
+.mineriah a:hover {
+    color: chocolate;
+    background: linear-gradient(
+        195deg,
+        var(--bg-claro),
+        var(--bg-oscuro-max) 40%);
+}
+.nav-toggle {
+    color: orange;
+    background: none;
+    border: none;
+    font-size: 40px;
+    display: none;
+}
+/*@media (max-width: 1150px)  {
+    .logo {
+        height: 40px;
+    }
+    .menu a {
+        margin-right: 2vw;
+    }
+}
+@media (max-width: 1060px)  {
+    .menu a {
+        margin-right: 1vw;
+    }
+}
+@media (max-width: 992px) {
+    .logo {
+        height: 35px;
+    }
+    .menu {
+        font-size: 17px;;
+    }
+}
+@media (max-width: 910px) {
+    .logo {
+        height: 35px;
+    }
+    .menu {
+        font-size: 16px;;
+    }*/
