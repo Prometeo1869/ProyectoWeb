@@ -61,7 +61,7 @@
     background: var(--degradado);
 }
 /*BOTÓN BARRAS*/
-.abrir-menu, .cerrar-menu {
+.abrir-menu {
     color: orange;
     background: none;
     border: none;
