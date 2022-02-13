@@ -61,7 +61,7 @@
     background: var(--degradado);
 }
 /*BOTÓN BARRAS*/
-.nav-toggle {
+.abrir-menu, .cerrar-menu {
     color: orange;
     background: none;
     border: none;
@@ -69,9 +69,8 @@
     display: none;
 }
 @media (max-width: 768px) {
-
-    .nav-toggle {
-        display: flex;
+    .abrir-menu {
+        display: block;
     }
     #desplegable {
         height: auto;
