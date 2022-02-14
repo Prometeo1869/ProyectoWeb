@@ -25,21 +25,11 @@ body {
 a {
     text-decoration: none;
 }
-/*CABECERA*/
-.topheader {
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-}
 /*CONTENIDO*/
 .contenido {
     height: 100vh;
     width: 100vw;
     padding: 25vh 10vw;
-}
-.card{
-    
 }
 @media (max-width: 768px) {
     .contenido {
