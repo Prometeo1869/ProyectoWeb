@@ -1,12 +1,5 @@
 .indice {
-    background-color: #546987e6;
-    height: 10vh;
+    background-color: white;/*#546987e6;*/
+    height: 100px;
     text-decoration: none;
 }
-@media (max-width: 768px) {
-    .indice {
-        display: none;
-    }
-
-}
-
