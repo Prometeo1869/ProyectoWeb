@@ -122,6 +122,12 @@ a {
     border: none;
     font-size: 22px;
 }
+.btn-redes {
+    color: var(--text-claro);
+    background: none;
+    border: none;
+    font-size: 25px;
+}
 /*CONTENIDO*/
 .contenido {
     height: 100vh;
