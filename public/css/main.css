@@ -110,11 +110,12 @@ a {
     background-color: #546987e6;
     /*height: 100px;*/
     text-decoration: none;
-    padding: 15px;
+    padding: 10px 0;
 }
 .indice a {
     color: white;
     font-size: medium;
+    text-decoration: none;
 }
 .btn-home {
     color: var(--text-claro);
