@@ -9,8 +9,6 @@
   <link rel="stylesheet" href="css/bootstrap.min.css" />
   <!-- my CSS -->
   <link type="text/css" rel="stylesheet" href="css/main.css" />
-  <link type="text/css" rel="stylesheet" href="css/navbar.css" />
-  <link type="text/css" rel="stylesheet" href="css/indice.css" />
   <!--Iconos FontAwesome-->
   <script src="https://kit.fontawesome.com/3128a69e9d.js" crossorigin="anonymous"></script>
   <!--Icono Página-->
@@ -36,33 +34,31 @@
             <a href="index.html" class="inicio nav-link text-decoration-none">Inicio</a>
           </li>
           <li class="granjah nav-item mr-xl-5 mr-lg-4 mr-md-2">
-            <a href="#" class="granja nav-link text-decoration-none">Granja</a>
+            <a href="granja.html" class="granja nav-link text-decoration-none">Granja</a>
           </li>
           <li class="eventosh nav-item mr-xl-5 mr-lg-4 mr-md-2">
-            <a href="#" class="eventos nav-link text-decoration-none" onclick="enlace('eventos.html')">Eventos</a>
+            <a href="eventos.html" class="eventos nav-link text-decoration-none">Eventos</a> <!--onclick="enlace('eventos.html')"-->
           </li>
           <li class="aldeanosh nav-item mr-xl-5 mr-lg-4 mr-md-2">
-            <a href="#" class="aldeanos nav-link text-decoration-none" onclick="enlace('aldeanos.html')">Aldeanos</a>
+            <a href="aldeanos.html" class="aldeanos nav-link text-decoration-none">Aldeanos</a> <!--onclick="enlace('aldeanos.html')"-->
           </li>
           <li class="mapah nav-item mr-xl-5 mr-lg-4 mr-md-2">
-            <a href="#" class="mapa nav-link text-decoration-none">Mapa</a>
+            <a href="mapa.html" class="mapa nav-link text-decoration-none">Mapa</a>
           </li>
           <li class="mash nav-item mr-xl-5 mr-lg-4 mr-md-2">
-            <a href="#" class="mas nav-link text-decoration-none">Más</a>
+            <a href="mas.html" class="mas nav-link text-decoration-none">Más</a>
           </li>
         </ul>
       </div>
     </nav>
     <!--BARRA SECUNDARIA-->
-    <div class="indice row align-items-center justify-content-around">
-      <a href="index.html" class="home">Inicio</a>
-      <div class="redes align-content-end">
-        <a href="">discor</a>
-        <a href="">faceboock</a>
-        <a href="">twiter</a>
-        <a href="">instagram</a>
-        <a href="">steam</a>
-      </div>
+    <div class="indice row align-items-center justify-content-center">
+      <a href="index.html" class="home">
+        <button class="btn-home">
+          <span class="fa-solid fa-house-chimney-window"></span>
+        </button>
+      </a>
+      
     </div>
   </header>
   <!--CONTENIDO-->
@@ -81,9 +77,9 @@
 </body>
 
 </html>
-  <!--CARGAR EN .contenido-->
+  <!--CARGAR EN .contenido
 <script>
   function enlace(url){
           $('.contenido').load(url);
       }
-  </script>
+  </script>-->

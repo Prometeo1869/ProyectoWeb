@@ -28,6 +28,100 @@ header {
 a {
     text-decoration: none;
 }
+/*CABECERA*/
+.topheader {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+}
+/*BARRA DE NAVEGACIÓN*/
+.topnav {
+    background-color: var(--bg-oscuro);
+    list-style: none;
+    font-weight: bold;
+    box-shadow: 0 0 3px 3px var(--bg-oscuro-max);
+}
+/*LOGO*/
+.logo {
+    height: 40px;
+}
+/*MENU*/
+.nav-menu {
+    max-width: 992px;
+    margin: 0 auto;
+}
+.nav-menu a {
+    border-radius: 10px;
+}
+/*COLORES MENU*/
+.inicio {
+    color: var(--text-naranja);
+}
+.inicioh a:hover {
+    color: var(--text-naranja);
+    background: var(--degradado);
+}
+.granja {
+    color: var(--text-turquesa);
+}
+.granjah a:hover {
+    color: var(--text-turquesa);
+    background: var(--degradado);
+}
+.eventos {
+    color: var(--text-salmon);
+}
+.eventosh a:hover {
+    color: var(--text-salmon);
+    background: var(--degradado);
+}
+.aldeanos {
+    color: violet;
+}
+.aldeanosh a:hover {
+    color: violet;
+    background: var(--degradado);
+}
+.mapa {
+    color: chartreuse;
+}
+.mapah a:hover {
+    color: chartreuse;
+    background: var(--degradado);
+}
+.mas {
+    color: chocolate;
+}
+.mash a:hover {
+    color: chocolate;
+    background: var(--degradado);
+}
+/*BOTÓN BARRAS*/
+.abrir-menu {
+    color: var(--text-naranja);
+    background: none;
+    border: none;
+    font-size: 35px;
+    display: none;
+}
+/*BARRA SECUNDARIA*/
+.indice {
+    background-color: #546987e6;
+    /*height: 100px;*/
+    text-decoration: none;
+    padding: 20px;
+}
+.indice a {
+    color: white;
+    font-size: medium;
+}
+.btn-home {
+    color: var(--text-claro);
+    background: none;
+    border: none;
+    font-size: 22px;
+}
 /*CONTENIDO*/
 .contenido {
     height: 100vh;
@@ -37,6 +131,17 @@ a {
 @media (max-width: 768px) {
     .contenido {
         padding: 11vh 5vw;
+    }
+    /*NAVBAR*/
+    .abrir-menu {
+        display: block;
+    }
+    #desplegable {
+        height: auto;
+        overflow-y: auto;
+    }
+    .nav-item a:hover {
+        background: var(--bg-oscuro-max);
     }
 }
 @media (max-width: 768px) {
