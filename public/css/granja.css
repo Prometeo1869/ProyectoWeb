@@ -1,0 +1,23 @@
+.granja-body {
+    position: absolute;
+    top: 80px;
+    left:10px;
+    right: 10px;
+    justify-content: space-around;
+}
+.card {
+    width: 280px;
+    background-color: var(--bg-oscuro-max);
+    margin-top: 60px;
+    text-align: start;
+}
+.card img {
+    background-color: var(--text-claro);
+    width: 250px;
+}
+.card-title {
+    color: var(--text-turquesa);
+}
+.card a {
+    text-decoration: none;
+}

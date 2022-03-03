@@ -6,7 +6,7 @@
     justify-content: space-evenly;
 }
 .card {
-    width: 300px;
+    width: 50px;
     background-color: var(--bg-oscuro-max);
     margin: 10px;
     text-align: start;
