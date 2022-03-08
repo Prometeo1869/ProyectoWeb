@@ -31,4 +31,13 @@ p {
         width: 207px;
     }
 }
-
+.btn {
+    background-color: violet;
+    color: var(--bg-oscuro-max);
+}
+#myBtnContainer {
+    margin-bottom: 20px;
+}
+.show {
+    display: block;
+  }
