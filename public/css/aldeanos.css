@@ -4,6 +4,7 @@
     left:10px;
     right: 10px;
     justify-content: space-evenly;
+    overflow: hidden;
 }
 .card {
     width: 300px;
@@ -31,13 +32,22 @@ p {
         width: 207px;
     }
 }
-.btn {
-    background-color: violet;
-    color: var(--bg-oscuro-max);
+.btnfiltro {
+    background-color: var(--bg-oscuro);
+    color: violet;
+}
+.btnfiltro:hover {
+    color:white;
 }
 #myBtnContainer {
     margin-bottom: 20px;
 }
 .show {
     display: block;
-  }
+}
+.container {
+    overflow: hidden;
+}
+/*.filterDiv {
+    display: none;
+}*/
