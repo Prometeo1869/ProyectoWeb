@@ -108,7 +108,7 @@ a {
 /*BARRA SECUNDARIA*/
 .indice {
     background-color: #546987e6;
-    /*height: 100px;*/
+    /*filter: blur(8px);*/
     text-decoration: none;
     padding: 10px 0;
 }
