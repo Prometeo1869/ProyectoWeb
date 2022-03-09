@@ -135,6 +135,15 @@ a {
     width: 100vw;
     padding: 25vh 10vw;
 }
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+.pie1 p {
+    font-size:x-small;
+}
 @media (max-width: 768px) {
     .contenido {
         padding: 11vh 5vw;
@@ -153,6 +162,9 @@ a {
 }
 @media (max-width: 768px) {
     .indice {
+        display: none;
+    }
+    footer {
         display: none;
     }
 }

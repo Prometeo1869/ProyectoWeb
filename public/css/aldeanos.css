@@ -42,12 +42,3 @@ p {
 #myBtnContainer {
     margin-bottom: 20px;
 }
-.show {
-    display: block;
-}
-.container {
-    overflow: hidden;
-}
-/*.filterDiv {
-    display: none;
-}*/
