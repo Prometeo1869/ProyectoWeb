@@ -131,14 +131,13 @@ a {
 }
 /*FOOTER*/
 footer {
-    position: fixed;
-    bottom: 0px;
-    left: 0px;
-    right: 0px;
-    text-decoration: none;
+    background: #384861;
+    margin-top: 50px;
 }
-pie {
+.pie {
     text-decoration: none;
+    margin-top: 5px;
+    margin-bottom: 0;
 }
 .titulo-pie {
     font-size: small;
@@ -168,6 +167,9 @@ pie {
     border: none;
     font-size: 25px;
 }
+.btn-redes:hover {
+    color: #f0e3aa;
+}
 /*RESPONSIVE*/
 @media (max-width: 768px) {
     .contenido {
@@ -189,7 +191,7 @@ pie {
     .indice {
         display: none;
     }
-    footer {
+    .pie {
         display: none;
     }
     
