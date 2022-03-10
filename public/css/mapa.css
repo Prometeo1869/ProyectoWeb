@@ -1,5 +1,4 @@
-/*CONTENIDO*/
-.eventos-body {
+.mapa-body {
     position: absolute;
     top: 180px;
     left: 0px;
@@ -10,17 +9,17 @@
 }
 /*FOOTER*/
 .redes {
-    border-left: 2px solid var(--text-salmon);
+    border-left: 2px solid chartreuse;
 }
 .titulo-pie {
-    color: var(--text-salmon);
+    color: chartreuse;
 }
 .btn-redes:hover {
-    color: var(--text-salmon);
+    color: chartreuse;
 }
 .indice a:hover {
-    color: var(--text-salmon);
+    color: chartreuse;
 }
 .btn-home:hover {
-    color: var(--text-salmon);
+    color: chartreuse;
 }

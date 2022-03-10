@@ -15,3 +15,9 @@
 .titulo-pie {
     color: var(--text-naranja);
 }
+.btn-redes:hover {
+    color: var(--text-naranja);
+}
+.btn-home:hover {
+    color: var(--text-naranja);
+}

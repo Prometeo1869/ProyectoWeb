@@ -21,11 +21,21 @@
 p {
     font-size: x-small;
 }
+/*RUTA*/
+.indice a:hover {
+    color: violet;
+}
+.btn-home:hover {
+    color: violet;
+}
 /*FOOTER*/
 .redes {
     border-left: 2px solid violet;
 }
 .titulo-pie {
+    color: violet;
+}
+.btn-redes:hover {
     color: violet;
 }
 @media (min-width: 768px) {
