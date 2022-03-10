@@ -194,5 +194,9 @@ footer {
     .pie {
         display: none;
     }
-    
+}
+@media (max-width: 1130px) {
+    .pie2 {
+        display: none;
+    }
 }
