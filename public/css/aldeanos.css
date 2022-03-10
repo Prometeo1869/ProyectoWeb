@@ -21,6 +21,13 @@
 p {
     font-size: x-small;
 }
+/*FOOTER*/
+.redes {
+    border-left: 2px solid violet;
+}
+.titulo-pie {
+    color: violet;
+}
 @media (min-width: 768px) {
     .aldeanos-body {
     position: absolute;

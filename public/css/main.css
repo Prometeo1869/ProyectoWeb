@@ -145,10 +145,7 @@ footer {
 .texto-pie {
     font-size:xx-small;
 }
-.pie2 {
-    border-right: 2px solid var(--text-naranja);
-}
-.pie2 ul {
+/*.pie2 ul {
     list-style: none;
 }
 .pie2 a {
@@ -157,7 +154,7 @@ footer {
 }
 .pie2 a:hover {
     color: var(--text-claro);
-}
+}*/
 .redes a {
     text-decoration: none;
 }
