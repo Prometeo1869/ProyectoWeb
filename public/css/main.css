@@ -140,8 +140,14 @@ footer {
 pie {
     text-decoration: none;
 }
-.pie1 p {
+.titulo-pie {
+    font-size: small;
+}
+.texto-pie {
     font-size:xx-small;
+}
+.pie2 {
+    border-right: 2px solid var(--text-naranja);
 }
 .pie2 ul {
     list-style: none;
