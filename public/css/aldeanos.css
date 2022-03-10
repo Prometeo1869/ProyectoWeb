@@ -39,13 +39,3 @@ p {
         width: 207px;
     }
 }
-.btnfiltro {
-    background-color: var(--bg-oscuro);
-    color: violet;
-}
-.btnfiltro:hover {
-    color:white;
-}
-#myBtnContainer {
-    margin-bottom: 20px;
-}

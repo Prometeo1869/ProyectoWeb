@@ -133,11 +133,13 @@ a {
 footer {
     background: #384861;
     margin-top: 50px;
+    width: 100vw;
+    /*align-self: flex-end;*/
 }
 .pie {
     text-decoration: none;
-    margin-top: 5px;
-    margin-bottom: 0;
+    margin: 10px 0 0 0;
+    justify-content: space-evenly;
 }
 .titulo-pie {
     font-size: small;
@@ -145,16 +147,6 @@ footer {
 .texto-pie {
     font-size:xx-small;
 }
-/*.pie2 ul {
-    list-style: none;
-}
-.pie2 a {
-    text-decoration: none;
-    font-size: small;
-}
-.pie2 a:hover {
-    color: var(--text-claro);
-}*/
 .redes a {
     text-decoration: none;
 }

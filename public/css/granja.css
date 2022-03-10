@@ -3,13 +3,14 @@
     top: 80px;
     left:10px;
     right: 10px;
-    justify-content: space-around;
-    
+    justify-content: space-evenly;
+    height: calc(100vh - 80px);
 }
 .card {
     width: 300px;
     background-color: var(--bg-oscuro-max);
     margin: 10px;
+    height: max-content;
 }
 .card img {
     background-color: var(--text-claro);
@@ -20,6 +21,13 @@
 }
 .card a {
     text-decoration: none;
+}
+/*FOOTER*/
+.redes {
+    border-left: 2px solid var(--text-turquesa);
+}
+.titulo-pie {
+    color: var(--text-turquesa);
 }
 @media (min-width: 768px) {
     .aldeanos-body {

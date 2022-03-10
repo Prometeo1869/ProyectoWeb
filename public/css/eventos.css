@@ -1,0 +1,17 @@
+/*CONTENIDO*/
+.eventos-body {
+    position: absolute;
+    top: 180px;
+    left: 0px;
+    right: 0px;
+    justify-content: space-evenly;
+    overflow: hidden;
+    height: calc(100vh - 180px);
+}
+/*FOOTER*/
+.redes {
+    border-left: 2px solid var(--text-salmon);
+}
+.titulo-pie {
+    color: var(--text-salmon);
+}
