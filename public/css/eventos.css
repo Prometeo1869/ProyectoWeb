@@ -24,3 +24,23 @@
 .btn-home:hover {
     color: var(--text-salmon);
 }
+.card {
+    background: var(--bg-oscuro);
+}
+.card-header {
+    background: var(--bg-primario);
+}
+.apartados a {
+    color: var(--text-claro);
+    border-radius: 5px;
+}
+.apartados a:hover {
+    border: 2px solir red;
+}
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: var(--text-salmon);
+    font-weight: bold;
+    background: var(--bg-oscuro-max);
+    border: 0;
+    border-radius: 5px;
+}
