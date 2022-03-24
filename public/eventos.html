@@ -17,7 +17,7 @@
     <link rel="icon" type="image/jpg" href="img/icono.ico">
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script type="text/javascript" src="#"></script>
+    <script type="text/javascript" src="js/eventos.js"></script>
     <!-- Popper JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <!-- Latest compiled JavaScript -->
@@ -84,22 +84,22 @@
             <div class="card-header">
                 <ul class="nav nav-tabs card-header-tabs apartados">
                     <li class="nav-item">
-                        <a class="nav-link" href="#primavera" role="tab" data-toggle="tab">PRIMAVERA</a>
+                        <a class="nav-link" href="#primavera" role="tab" data-toggle="tab" onclick="desaparece()">PRIMAVERA</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#verano" role="tab" data-toggle="tab">VERANO</a>
+                        <a class="nav-link" href="#verano" role="tab" data-toggle="tab" onclick="desaparece()">VERANO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#otono" role="tab" data-toggle="tab">OTOÑO</a>
+                        <a class="nav-link" href="#otono" role="tab" data-toggle="tab" onclick="desaparece()">OTOÑO</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#invierno" role="tab" data-toggle="tab">INVIERNO</a>
+                        <a class="nav-link" href="#invierno" role="tab" data-toggle="tab" onclick="desaparece()">INVIERNO</a>
                     </li>
                 </ul>
             </div>
             <br>
             <div class="car-body tab-content row justify-content-center">
-                <div class="portadaEventos">
+                <div id="portadaEventos">
                     <img src="img/ciclo-diario.png">
                 </div>
                 <div class="tab-pane" role="tabpanel" id="primavera" selected="true">
@@ -186,7 +186,6 @@
                     </a>
                 </div>
             </div>
-            <div class="indice row align-items-center justify-content-end">
         </footer>
     </div>
 
