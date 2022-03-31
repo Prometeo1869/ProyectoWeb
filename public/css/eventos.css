@@ -64,7 +64,9 @@
     }
     .almanaque {
         display: block;
+        margin-top: 25px;
+    }
+    .almanaque img {
         width: 100vw;
-        margin-bottom: 25px;
     }
 }

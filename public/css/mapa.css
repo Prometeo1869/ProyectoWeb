@@ -26,3 +26,27 @@
 .mapa-img {
     margin-top: 50px;
 }
+.mapa-dividido {
+    display: none;
+}
+@media (max-width: 768px) {
+    .mapa-img {
+        display: none;
+    }
+    .mapa-dividido {
+        display: block;
+        width: 100vw;
+        margin-bottom: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+    .mapa-dividido a {
+        text-decoration: none;
+        color: var(--text-naranja);
+        
+    }
+    .mapa-moviles {
+        /*MIRAR LO DE CENTRARLO*/
+    }
+}
