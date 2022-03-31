@@ -38,6 +38,9 @@
     border-radius: 10px;
     width: 250px;
 }
+.almanaque {
+    display: none;
+}
 /*FOOTER*/
 .redes {
     border-left: 2px solid var(--text-salmon);
@@ -50,4 +53,13 @@
 }
 .btn-home:hover {
     color: var(--text-salmon);
+}
+@media (max-width: 525px) {
+    .card {
+        display: none;
+    }
+    .almanaque {
+        display: block;
+        width: 100vw;
+    }
 }
