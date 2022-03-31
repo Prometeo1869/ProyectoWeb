@@ -1,11 +1,11 @@
 .mapa-body {
     position: absolute;
-    top: 180px;
+    top: 80px;
     left: 0px;
     right: 0px;
-    justify-content: space-evenly;
-    overflow: hidden;
-    height: calc(100vh - 180px);
+    justify-content: center;
+    overflow: auto;
+    height: calc(100vh - 80px);
 }
 /*FOOTER*/
 .redes {
@@ -22,4 +22,7 @@
 }
 .btn-home:hover {
     color: chartreuse;
+}
+.mapa-img {
+    margin-top: 50px;
 }
