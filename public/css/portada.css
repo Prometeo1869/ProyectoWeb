@@ -1,13 +1,21 @@
 /*CONTENIDO*/
 .portada-body {
     position: absolute;
-    top: 180px;
+    top: 80px;
     left: 0px;
     right: 0px;
     justify-content: space-evenly;
-    overflow: hidden;
-    height: calc(100vh - 180px);
+    overflow:auto;
+    height: calc(100vh - 80px);
+    padding-top: 50px;
 }
+.portada-img img {
+    width: 60vw;
+}
+.juminos img {
+    width: 70vw;
+}
+
 /*FOOTER*/
 .redes {
     border-left: 2px solid var(--text-naranja);
