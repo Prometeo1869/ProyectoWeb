@@ -10,12 +10,11 @@
     padding-top: 50px;
 }
 .portada-img img {
-    width: 60vw;
+    width: 65vw;
 }
 .juminos img {
-    width: 70vw;
+    width: 60vw;
 }
-
 /*FOOTER*/
 .redes {
     border-left: 2px solid var(--text-naranja);
@@ -28,4 +27,16 @@
 }
 .btn-home:hover {
     color: var(--text-naranja);
+}
+.sobreST {
+    width: 80vw;
+}
+
+@media (max-width: 768px) {
+    .portada-img img {
+        width: 95vw;
+    }
+    .juminos img {
+        width: 80vw;
+    }
 }
