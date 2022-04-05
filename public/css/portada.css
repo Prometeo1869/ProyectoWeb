@@ -31,7 +31,26 @@
 .sobreST {
     width: 80vw;
 }
-
+.sobreST img{
+    border-radius: 25px;
+    width: 25vw;
+}
+blockquote {
+    background: url("../img/barone_cita2.jpg") no-repeat;
+    background-size: cover;
+    border-left: 10px solid orange;
+    width: 50vw;
+    color: orange;
+    border-radius: 20px;
+}
+blockquote p {
+    margin: 0 30px 30px 320px;
+}
+.comillas {
+    color:orange;
+    font-size: xx-large;
+    margin-left: 250px;
+}
 @media (max-width: 768px) {
     .portada-img img {
         width: 95vw;
