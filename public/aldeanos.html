@@ -22,6 +22,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+    <!--my JavaScript-->
+    <script type="text/javascript" src="js/metodos.js"></script>
 </head>
 
 <body>
@@ -78,6 +80,10 @@
     </header>
     <!--CONTENIDO-->
     <div class="aldeanos-body row">
+        <!--BOTONES FILTROS-->
+        <div class="botones-filtro row col col-12 justify-content-center">
+            <button type="button" class="filtro btn btn-light" onclick="desapareceSoltera('soltera')">Solteras</button>
+        </div>
         <!--CARDS PERSONAJES-->
         <div class="card" id="soltera">
             <img class="card-img-top" src="img/abigail.png" alt="Abigail">
