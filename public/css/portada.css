@@ -8,9 +8,13 @@
     overflow:auto;
     height: calc(100vh - 80px);
     padding-top: 50px;
+    text-shadow: 1px 1px 3px var(--bg-oscuro-max);
 }
 .portada-img img {
     width: 65vw;
+}
+h3 {
+    text-shadow: 2px 2px 5px var(--bg-oscuro-max);
 }
 .juminos img {
     width: 60vw;
@@ -39,7 +43,8 @@ blockquote {
     background: url("../img/barone_cita.jpg") no-repeat;
     background-size: cover;
     border-left: 10px solid orange;
-    width: 50vw;
+    width: 1015px;
+    height: 375px;
     color: orange;
     border-radius: 20px;
 }
@@ -51,6 +56,16 @@ blockquote p {
     font-size: xx-large;
     margin-left: 250px;
 }
+@media (max-width: 1106px) {
+    blockquote {
+        width: 95vw;
+        height: auto;
+    }
+    blockquote p {
+        margin: 0 30px 30px 300px;
+        font-size:small;
+    }
+}
 @media (max-width: 768px) {
     .portada-img img {
         width: 95vw;
@@ -61,5 +76,15 @@ blockquote p {
     .sobreST img{
         border-radius: 25px;
         width: 80vw;
+    }
+    blockquote {
+        background: url("../img/barone_cita-oscuro.jpg") no-repeat;
+        background-size: cover;
+    }
+    blockquote p {
+        margin-left: 100px;
+    }
+    .comillas {
+        margin-left: 50px;
     }
 }
