@@ -26,6 +26,9 @@
 .mapa-img {
     margin-top: 50px;
 }
+.mapa-img img {    
+    border-radius: 25px;
+}
 .mapa-dividido {
     display: none;
 }

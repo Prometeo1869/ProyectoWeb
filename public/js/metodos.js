@@ -1,24 +1,15 @@
-function soloSolteras() {
-    this.aparece();
-    document.getElementById('soltero').style.display = 'none';
-    document.getElementById('resto').style.display = 'none';
-    document.getElementById('vendedor').style.display = 'none';
+function desaparece(id) {
+    document.getElementById(id).style.display = 'none';
+    
 }
-function soloSolteros() {
-    this.aparece();
-    document.getElementById('soltera').style.display = 'none';
-    document.getElementById('resto').style.display = 'none';
-    document.getElementById('vendedor').style.display = 'none';
-}
-function soloVendedores() {
-    this.aparece();
-    document.getElementById('soltero').style.display = 'none';
-    document.getElementById('resto').style.display = 'none';
-    document.getElementById('soltera').style.display = 'none';
-}
-function aparece() {
-    document.getElementById('soltera').style.display = 'flex';
-    document.getElementById('soltero').style.display = 'flex';
-    document.getElementById('resto').style.display = 'flex';
-    document.getElementById('vendedor').style.display = 'flex';
+function aparece(id) {
+    let x, y, i;
+    x = document.getElementsByClassName('card');
+    for(i = 0; i < x.length; i++){
+        x[i].style.display = 'none';
+    }    
+    y = document.getElementsByClassName(id);
+    for(i = 0; i < x.length; i++){
+        y[i].style.display = 'flex';
+    }
 }

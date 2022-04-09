@@ -33,7 +33,7 @@
 }
 .sobreST img{
     border-radius: 25px;
-    width: 25vw;
+    width: 40vw;
 }
 blockquote {
     background: url("../img/barone_cita.jpg") no-repeat;
@@ -56,6 +56,10 @@ blockquote p {
         width: 95vw;
     }
     .juminos img {
+        width: 80vw;
+    }
+    .sobreST img{
+        border-radius: 25px;
         width: 80vw;
     }
 }
