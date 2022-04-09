@@ -1,11 +1,11 @@
 .mapa-body {
     position: absolute;
-    top: 80px;
+    top: 150px;
     left: 0px;
     right: 0px;
     justify-content: center;
     overflow: auto;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 150px);
 }
 /*FOOTER*/
 .redes {
