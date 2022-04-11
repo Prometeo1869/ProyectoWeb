@@ -1,0 +1,60 @@
+/*RUTA*/
+.indice a:hover {
+    color: var(--text-turquesa);
+}
+.btn-home:hover {
+    color: var(--text-turquesa);
+}
+/*CONTENIDO*/
+.cultivos-body {
+    position: absolute;
+    top: 160px;
+    left:10px;
+    right: 10px;
+    height: calc(100vh - 160px);
+    text-shadow: 1px 1px 3px var(--bg-oscuro-max);
+}
+.cultivos {
+    width: 85vw;
+}
+h3 {
+    color: var(--text-turquesa);
+    text-shadow: 2px 2px 5px var(--bg-oscuro-max);
+}
+table {
+    border: 5px solid var(--text-turquesa);
+    border-collapse: collapse;
+    text-align: center;
+}
+thead {
+    background: var(--bg-oscuro-max);
+    border-bottom: 5px solid var(--text-turquesa);
+}
+thead tr th {
+    border-left: 5px solid var(--text-turquesa);
+}
+table th, td {
+    border: 4px solid var(--bg-oscuro-max);
+    padding: 15px;
+}
+.columna1 {
+    background-color: var(--bg-oscuro);
+}
+/*FOOTER*/
+.redes {
+    border-left: 2px solid var(--text-turquesa);
+}
+.titulo-pie {
+    color: var(--text-turquesa);
+}
+.btn-redes:hover {
+    color: var(--text-turquesa);
+}
+@media (min-width: 768px) {
+    .aldeanos-body {
+    position: absolute;
+    top: 180px;
+    left:10px;
+    right: 10px;
+    }
+}
