@@ -50,11 +50,11 @@ table th, td {
 .btn-redes:hover {
     color: var(--text-turquesa);
 }
-@media (min-width: 768px) {
-    .aldeanos-body {
+/*@media (min-width: 768px) {
+    .cultivos-body {
     position: absolute;
     top: 180px;
     left:10px;
     right: 10px;
     }
-}
+}*/

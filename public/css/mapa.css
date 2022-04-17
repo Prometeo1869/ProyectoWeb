@@ -1,11 +1,29 @@
+/*RUTA*/
+.indice a:hover {
+    color: chartreuse;
+}
+.btn-home:hover {
+    color: chartreuse;
+}
+/*CONTENIDO*/
 .mapa-body {
     position: absolute;
-    top: 150px;
+    top: 80px;
     left: 0px;
     right: 0px;
     justify-content: center;
     overflow: auto;
-    height: calc(100vh - 150px);
+    height: calc(100vh - 80px);
+    padding-top: 50px;
+}
+.mapa-img {
+    margin-top: 50px;
+}
+.mapa-img img {    
+    border-radius: 25px;
+}
+.mapa-dividido {
+    display: none;
 }
 /*FOOTER*/
 .redes {
@@ -17,21 +35,7 @@
 .btn-redes:hover {
     color: chartreuse;
 }
-.indice a:hover {
-    color: chartreuse;
-}
-.btn-home:hover {
-    color: chartreuse;
-}
-.mapa-img {
-    margin-top: 50px;
-}
-.mapa-img img {    
-    border-radius: 25px;
-}
-.mapa-dividido {
-    display: none;
-}
+
 @media (max-width: 768px) {
     .mapa-img {
         display: none;
@@ -48,8 +52,5 @@
         text-decoration: none;
         color: var(--text-naranja);
         
-    }
-    .mapa-moviles {
-        /*MIRAR LO DE CENTRARLO*/
     }
 }
