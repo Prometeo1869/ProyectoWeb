@@ -1,0 +1,30 @@
+/*RUTA*/
+.indice a:hover {
+    color: var(--text-turquesa);
+}
+.btn-home:hover {
+    color: var(--text-turquesa);
+}
+/*CONTENIDO*/
+.construcciones-body {
+    position: absolute;
+    top: 160px;
+    left:10px;
+    right: 10px;
+    height: calc(100vh - 160px);
+    text-shadow: 1px 1px 3px var(--bg-oscuro-max);
+}
+.btn-subir {
+    color: var(--text-turquesa);
+    font-size: xx-large;
+}
+/*FOOTER*/
+.redes {
+    border-left: 2px solid var(--text-turquesa);
+}
+.titulo-pie {
+    color: var(--text-turquesa);
+}
+.btn-redes:hover {
+    color: var(--text-turquesa);
+}
