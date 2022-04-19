@@ -20,6 +20,10 @@ h3 {
 .juminos img {
     width: 60vw;
 }
+.btn-subir {
+    color: var(--text-naranja);
+    font-size: xx-large;
+}
 /*FOOTER*/
 .redes {
     border-left: 2px solid var(--text-naranja);

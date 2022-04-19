@@ -29,6 +29,10 @@ p {
 .btn-home:hover {
     color: violet;
 }
+.btn-subir {
+    color: violet;
+    font-size: xx-large;
+}
 /*FOOTER*/
 .redes {
     border-left: 2px solid violet;
