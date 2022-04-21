@@ -1,0 +1,29 @@
+<cultivos-primavera>
+
+  <cultivo>
+    <nombre>FRESA</nombre>
+    <comprar>
+      <tienda>Semilla de fresa</tienda>
+      <precio>Pierre's: 100 G</precio>
+    </comprar>
+    <crecimiento>
+      <dias>8 días</dias>
+      <recosecha>Recosecha: 4 días</recosecha>
+    </crecimiento>
+    <rentabilidad>20,83 G/día</rentabilidad>
+  </cultivo>
+
+  <cultivo>
+    <nombre></nombre>
+    <comprar>
+      <tienda></tienda>
+      <precio></precio>
+    </comprar>
+    <crecimiento>
+      <dias></dias>
+      <recosecha></recosecha>
+    </crecimiento>
+    <rentabilidad></rentabilidad>
+  </cultivo>
+  
+</cultivos-primavera>
