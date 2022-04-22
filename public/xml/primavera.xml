@@ -1,33 +1,125 @@
 <cultivos-primavera>
 
   <cultivo>
-    <imagen></imagen>
+    <imagen>-</imagen>
     <nombre>FRESA</nombre>
-    <comprar>
-      <tienda>Semilla de fresa</tienda>
-      <precio>Pierre's: 100 G</precio>
-    </comprar>
-    <crecimiento>
-      <dias>8 días</dias>
-      <recosecha>Recosecha: 4 días</recosecha>
-    </crecimiento>
+    <tienda>Semilla de fresa</tienda>
+    <precio>Pierre's: 100 G</precio>
+    <dias>8 días</dias>
+    <recosecha>Recosecha: 4 días</recosecha>
     <rentabilidad>20,83 G/día</rentabilidad>
-    <comentario></comentario>
+    <comentario>-</comentario>
+  </cultivo>
+  
+  <cultivo>
+    <imagen>-</imagen>
+    <nombre>GRANO DE CAFÉ</nombre>
+    <tienda>Grano de café</tienda>
+    <precio>Carro ambulante: 2500 G</precio>
+    <dias>10 días</dias>
+    <recosecha>Recosecha: 2 días</recosecha>
+    <rentabilidad>20,77 G/día</rentabilidad>
+    <comentario>(La primera vez que se cosecha no es rentable, por el precio del grano)</comentario>
   </cultivo>
 
   <cultivo>
-    <imagen></imagen>
-    <nombre></nombre>
-    <comprar>
-      <tienda></tienda>
-      <precio></precio>
-    </comprar>
-    <crecimiento>
-      <dias></dias>
-      <recosecha></recosecha>
-    </crecimiento>
-    <rentabilidad></rentabilidad>
-    <comentario></comentario>
+    <imagen>-</imagen>
+    <nombre>RUIBARBO</nombre>
+    <tienda>Brote de ruibarbo</tienda>
+    <precio>Oasis: 100 G</precio>
+    <dias>13 días</dias>
+    <recosecha>-</recosecha>
+    <rentabilidad>9,23 G/día</rentabilidad>
+    <comentario>-</comentario>
   </cultivo>
-  
+  <cultivo>
+    <imagen>-</imagen>
+    <nombre>COLIFLOR</nombre>
+    <tienda>Semilla de coliflor</tienda>
+    <precio>Pierre's: 80 G</precio>
+    <dias>12 días</dias>
+    <recosecha>-</recosecha>
+    <rentabilidad>7,92 G/día</rentabilidad>
+    <comentario>-</comentario>
+  </cultivo>
+  <cultivo>
+    <imagen>-</imagen>
+    <nombre>PATATA</nombre>
+    <tienda>Brote de patata</tienda>
+    <precio>Pierre's: 50 G</precio>
+    <dias>6 días</dias>
+    <recosecha>-</recosecha>
+    <rentabilidad>7,67 G/día</rentabilidad>
+    <comentario>-</comentario>
+  </cultivo>
+  <cultivo>
+    <imagen>-</imagen>
+    <nombre>JUDÍA VERDE</nombre>
+    <tienda>Semilla de judías</tienda>
+    <precio>Pierre's: 60 G</precio>
+    <dias>10 días</dias>
+    <recosecha>Recosecha: 3 días</recosecha>
+    <rentabilidad>7,20 G/día</rentabilidad>
+    <comentario>-</comentario>
+  </cultivo>
+  <cultivo>
+    <imagen>-</imagen>
+    <nombre>COL RIZADA</nombre>
+    <tienda>Semilla de col rizada</tienda>
+    <precio>Pierre's: 70 G</precio>
+    <dias>6 días</dias>
+    <recosecha>-</recosecha>
+    <rentabilidad>6,67 G/día</rentabilidad>
+    <comentario>-</comentario>
+  </cultivo>
+  <cultivo>
+    <imagen>-</imagen>
+    <nombre>AJO</nombre>
+    <tienda>Semilla de ajo</tienda>
+    <precio>Pierre's: 40 G</precio>
+    <dias>4 días</dias>
+    <recosecha>-</recosecha>
+    <rentabilidad>5,00 G/día</rentabilidad>
+    <comentario>-</comentario>
+  </cultivo>
+  <cultivo>
+    <imagen>-</imagen>
+    <nombre>CHIRIVÍA</nombre>
+    <tienda>Semilla de chirivía</tienda>
+    <precio>Pierre's: 20 G</precio>
+    <dias>4 días</dias>
+    <recosecha>-</recosecha>
+    <rentabilidad>3,75 G/día</rentabilidad>
+    <comentario>-</comentario>
+  </cultivo>
+  <cultivo>
+    <imagen>-</imagen>
+    <nombre>ALLIUM AZUL</nombre>
+    <tienda>Semilla de allium azul</tienda>
+    <precio>Pierre's: 30 G</precio>
+    <dias>7 días</dias>
+    <recosecha>-</recosecha>
+    <rentabilidad>2,86 G/día</rentabilidad>
+    <comentario>-</comentario>
+  </cultivo>
+  <cultivo>
+    <imagen>-</imagen>
+    <nombre>ARROZ</nombre>
+    <tienda>Brote de arroz</tienda>
+    <precio>Pierre's: 40 G</precio>
+    <dias>6-8 días</dias>
+    <recosecha>-</recosecha>
+    <rentabilidad>1,25 G/día</rentabilidad>
+    <comentario>(Hay que procesarlo en un molino para aumentar su valor)</comentario>
+  </cultivo>
+  <cultivo>
+    <imagen>-</imagen>
+    <nombre>TULIPÁN</nombre>
+    <tienda>Bulbo de tulipan</tienda>
+    <precio>Pierre's: 40 G</precio>
+    <dias>6-8 días</dias>
+    <recosecha>-</recosecha>
+    <rentabilidad>1,25 G/día</rentabilidad>
+    <comentario>(Hay que procesarlo en un molino para aumentar su valor)</comentario>
+  </cultivo>
 </cultivos-primavera>
