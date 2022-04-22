@@ -83,41 +83,14 @@
     </header>
     <!--CONTENIDO CULTIVOS-->
     <div class="cultivos-body row justify-content-center">
-        <div>
-            <button onclick="loadXMLDoc('xml/primavera.xml')">PRIMAVERA</button>
-            <button onclick="loadXMLDoc('xml/verano.xml')">VERANO</button>
-            <button onclick="loadXMLDoc('xml/otono.xml')">OTOÑO</button>
+        <div class="cultivos-tabla row justify-content-center m-5">
+            <button class="btn btn-light m-5" onclick="loadXMLDoc('xml/primavera.xml')">PRIMAVERA</button>
+            <button class="btn btn-light m-5" onclick="loadXMLDoc('xml/verano.xml')">VERANO</button>
+            <button class="btn btn-light m-5" onclick="loadXMLDoc('xml/otono.xml')">OTOÑO</button>
             <table id="tabla1"></table>
 
         </div>
-        <div class="cultivos-tabla m-5">
-            <h3 class="text-center">PRIMAVERA</h3>
-            <hr class="mb-5" color="white" />
-            <div class="row justify-content-center">
-                <table>
-                    <thead>
-                        <tr>
-                            <th>CULTIVO</th>
-                            <th>SEMILLA</th>
-                            <th>CRECIMIENTO</th>
-                            <th>RENTABILIDAD</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-
-                        <tr>
-                            <th class="columna1">TULIPÁN</th>
-                            <th class="columna2">
-                                <p>Bulbo de tulipán</p>
-                                <p>Pierre's: 20 G</p>
-                            </th>
-                            <th>6 días</th>
-                            <th>1,67 G/día</th>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
+        
         <div class="cultivos-tabla m-5">
             <h3 class="text-center">VERANO</h3>
             <hr class="mb-5" color="white" />
@@ -132,27 +105,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
-                            <th class="columna1">CARAMBOLA</th>
-                            <th>
-                                <p>Semilla de carambola</p>
-                                <p>Oasis: 400 G</p>
-                            </th>
-                            <th>13 días</th>
-                            <th>26,92 G/día</th>
-                        </tr>
-                        <tr>
-                            <th class="columna1">ARÁNDANO</th>
-                            <th>
-                                <p>Semilla de arándano</p>
-                                <p>Pierre's: 80 G</p>
-                            </th>
-                            <th>
-                                <p>13 días</p>
-                                <p>Recosecha: 4 días</p>
-                            </th>
-                            <th>20,8 G/día</th>
-                        </tr>
+                    
                         <tr>
                             <th class="columna1">LOMBARDA</th>
                             <th>

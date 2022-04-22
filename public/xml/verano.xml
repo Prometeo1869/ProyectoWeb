@@ -1,0 +1,32 @@
+<cultivos-verano>
+    <cultivo>
+        <imagen> </imagen>
+        <nombre>CARAMBOLA</nombre>
+        <semilla>Semilla de carambola</semilla>
+        <precio>Oasis: 400 G</precio>
+        <dias>13 días</dias>
+        <recosecha> </recosecha>
+        <rentabilidad>26,92 G/día</rentabilidad>
+        <comentario> </comentario>
+    </cultivo>
+    <cultivo>
+        <imagen> </imagen>
+        <nombre>ARÁNDANO</nombre>
+        <semilla>Semilla de arándano</semilla>
+        <precio>Pierre's: 80 G</precio>
+        <dias>13 días</dias>
+        <recosecha>Recosecha: 4 días</recosecha>
+        <rentabilidad>20,80 G/día</rentabilidad>
+        <comentario> </comentario>
+    </cultivo>
+    <cultivo>
+        <imagen> </imagen>
+        <nombre>LOMBARDA</nombre>
+        <semilla>Semilla de lombarda</semilla>
+        <precio>Pierre's: 100 G</precio>
+        <dias>9 días</dias>
+        <recosecha> </recosecha>
+        <rentabilidad>17,78 G/día</rentabilidad>
+        <comentario> </comentario>
+    </cultivo>
+</cultivos-verano>

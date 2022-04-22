@@ -43,7 +43,7 @@ function rellenarTabla(xml) {
         table += "<tr><td class='columna1'><img src='" +
             x[i].getElementsByTagName("imagen")[0].childNodes[0].nodeValue + "'></img><p>" + 
             x[i].getElementsByTagName("nombre")[0].childNodes[0].nodeValue + "</p></td><td><p>" +
-            x[i].getElementsByTagName("tienda")[0].childNodes[0].nodeValue + "</p><p>" +
+            x[i].getElementsByTagName("semilla")[0].childNodes[0].nodeValue + "</p><p>" +
             x[i].getElementsByTagName("precio")[0].childNodes[0].nodeValue + "</p></td><td><p>" +
             x[i].getElementsByTagName("dias")[0].childNodes[0].nodeValue + "</p><p>" +
             x[i].getElementsByTagName("recosecha")[0].childNodes[0].nodeValue + "<p></td><td><p>" +

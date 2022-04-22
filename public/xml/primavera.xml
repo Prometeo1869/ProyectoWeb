@@ -1,31 +1,28 @@
 <cultivos-primavera>
-
   <cultivo>
     <imagen> </imagen>
     <nombre>FRESA</nombre>
-    <tienda>Semilla de fresa</tienda>
+    <semilla>Semilla de fresa</semilla>
     <precio>Pierre's: 100 G</precio>
     <dias>8 días</dias>
     <recosecha>Recosecha: 4 días</recosecha>
     <rentabilidad>20,83 G/día</rentabilidad>
     <comentario> </comentario>
   </cultivo>
-  
   <cultivo>
     <imagen> </imagen>
     <nombre>GRANO DE CAFÉ</nombre>
-    <tienda>Grano de café</tienda>
+    <semilla>Grano de café</semilla>
     <precio>Carro ambulante: 2500 G</precio>
     <dias>10 días</dias>
     <recosecha>Recosecha: 2 días</recosecha>
     <rentabilidad>20,77 G/día</rentabilidad>
     <comentario>(La primera vez que se cosecha no es rentable, por el precio del grano)</comentario>
   </cultivo>
-
   <cultivo>
     <imagen> </imagen>
     <nombre>RUIBARBO</nombre>
-    <tienda>Brote de ruibarbo</tienda>
+    <semilla>Brote de ruibarbo</semilla>
     <precio>Oasis: 100 G</precio>
     <dias>13 días</dias>
     <recosecha> </recosecha>
@@ -35,7 +32,7 @@
   <cultivo>
     <imagen> </imagen>
     <nombre>COLIFLOR</nombre>
-    <tienda>Semilla de coliflor</tienda>
+    <semilla>Semilla de coliflor</semilla>
     <precio>Pierre's: 80 G</precio>
     <dias>12 días</dias>
     <recosecha> </recosecha>
@@ -45,7 +42,7 @@
   <cultivo>
     <imagen> </imagen>
     <nombre>PATATA</nombre>
-    <tienda>Brote de patata</tienda>
+    <semilla>Brote de patata</semilla>
     <precio>Pierre's: 50 G</precio>
     <dias>6 días</dias>
     <recosecha> </recosecha>
@@ -55,7 +52,7 @@
   <cultivo>
     <imagen> </imagen>
     <nombre>JUDÍA VERDE</nombre>
-    <tienda>Semilla de judías</tienda>
+    <semilla>Semilla de judías</semilla>
     <precio>Pierre's: 60 G</precio>
     <dias>10 días</dias>
     <recosecha>Recosecha: 3 días</recosecha>
@@ -65,7 +62,7 @@
   <cultivo>
     <imagen> </imagen>
     <nombre>COL RIZADA</nombre>
-    <tienda>Semilla de col rizada</tienda>
+    <semilla>Semilla de col rizada</semilla>
     <precio>Pierre's: 70 G</precio>
     <dias>6 días</dias>
     <recosecha> </recosecha>
@@ -75,7 +72,7 @@
   <cultivo>
     <imagen> </imagen>
     <nombre>AJO</nombre>
-    <tienda>Semilla de ajo</tienda>
+    <semilla>Semilla de ajo</semilla>
     <precio>Pierre's: 40 G</precio>
     <dias>4 días</dias>
     <recosecha> </recosecha>
@@ -85,7 +82,7 @@
   <cultivo>
     <imagen> </imagen>
     <nombre>CHIRIVÍA</nombre>
-    <tienda>Semilla de chirivía</tienda>
+    <semilla>Semilla de chirivía</semilla>
     <precio>Pierre's: 20 G</precio>
     <dias>4 días</dias>
     <recosecha> </recosecha>
@@ -95,7 +92,7 @@
   <cultivo>
     <imagen> </imagen>
     <nombre>ALLIUM AZUL</nombre>
-    <tienda>Semilla de allium azul</tienda>
+    <semilla>Semilla de allium azul</semilla>
     <precio>Pierre's: 30 G</precio>
     <dias>7 días</dias>
     <recosecha> </recosecha>
@@ -105,7 +102,7 @@
   <cultivo>
     <imagen> </imagen>
     <nombre>ARROZ</nombre>
-    <tienda>Brote de arroz</tienda>
+    <semilla>Brote de arroz</semilla>
     <precio>Pierre's: 40 G</precio>
     <dias>6-8 días</dias>
     <recosecha> </recosecha>
@@ -115,7 +112,7 @@
   <cultivo>
     <imagen> </imagen>
     <nombre>TULIPÁN</nombre>
-    <tienda>Bulbo de tulipan</tienda>
+    <semilla>Bulbo de tulipan</semilla>
     <precio>Pierre's: 20 G</precio>
     <dias>6 días</dias>
     <recosecha> </recosecha>
