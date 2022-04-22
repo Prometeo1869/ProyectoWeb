@@ -39,7 +39,7 @@ function rellenarTabla(xml) {
     xmlDoc = xml.responseXML;
     table = "<thead><tr><th>CULTIVO</th><th>SEMILLA</th><th>CRECIMIENTO</th><th>RENTABILIDAD</th></tr></thead><tbody>";
     x = xmlDoc.getElementsByTagName("disco");
-    for (i = 0; i <tbody x.length; i++) {
+    for (i = 0; i < x.length; i++) {
         table += "<tr><td><img>" +
             x[i].getElementsByTagName("imagen")[0].childNodes[0].nodeValue + "</img><p>" + 
             x[i].getElementsByTagName("nombre")[0].childNodes[0].nodeValue + "</p></td><td><p>" +
