@@ -18,32 +18,39 @@ function aparece(clase) {
     }
 }
 /*TABLAS USANDO XML*/
-    /*FUNCION PARA LEER EL DOCUMETO XML*/
-function loadXMLDoc() {
-    var xmlhttp = new XMLHttpRequest();
+    /*FUNCION PARA CARGAR EL DOCUMETO XML
+    PARAMETRIZAR archivoXML CON EL .xml QUE QUERAMOS CARGAR*/
+function loadXMLDoc(archivoXML) {
+    let xmlhttp = new XMLHttpRequest();
 
     xmlhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
-            myFunction(this);
+            rellenarTabla(this);
         }
     };
 
-    xmlhttp.open("GET", "musica.xml", true);
+    xmlhttp.open("GET", archivoXML, true); 
     xmlhttp.send();
 }
     /*RELLENA LA TABLA CON LOS DATOS XML*/
-function myFunction(xml) {
-    var x, i, xmlDoc, table;
+function rellenarTabla(xml) {
+    let x, i, xmlDoc, table;
 
     xmlDoc = xml.responseXML;
-    table = "<tr><th>Artista</th><th>Titulo</th><th>Año</th></tr>";
+    table = "<thead><tr><th>CULTIVO</th><th>SEMILLA</th><th>CRECIMIENTO</th><th>RENTABILIDAD</th></tr></thead><tbody>";
     x = xmlDoc.getElementsByTagName("disco");
-    for (i = 0; i < x.length; i++) {
-        table += "<tr><td>" +
-            x[i].getElementsByTagName("author")[0].childNodes[0].nodeValue + "</td>" + "<td>" +
-            x[i].getElementsByTagName("title")[0].childNodes[0].nodeValue + "</td>" + "<td>" +
-            x[i].getElementsByTagName("year")[0].childNodes[0].nodeValue + "</td></tr>";
+    for (i = 0; i <tbody x.length; i++) {
+        table += "<tr><td><img>" +
+            x[i].getElementsByTagName("imagen")[0].childNodes[0].nodeValue + "</img><p>" + 
+            x[i].getElementsByTagName("nombre")[0].childNodes[0].nodeValue + "</p></td><td><p>" +
+            x[i].getElementsByTagName("tienda")[0].childNodes[0].nodeValue + "</p><p>" +
+            x[i].getElementsByTagName("precio")[0].childNodes[0].nodeValue + "</p></td><td><p>" +
+            x[i].getElementsByTagName("dias")[0].childNodes[0].nodeValue + "</p><p>" +
+            x[i].getElementsByTagName("recosecha")[0].childNodes[0].nodeValue + "<p></td><td><p>" +
+            x[i].getElementsByTagName("rentabilidad")[0].childNodes[0].nodeValue + "</p><p>" +
+            x[i].getElementsByTagName("comentario")[0].childNodes[0].nodeValue + "</p></td></tr>";
 
     }
+    table += "</tbody>"
     document.getElementById("tabla1").innerHTML = table;
 }

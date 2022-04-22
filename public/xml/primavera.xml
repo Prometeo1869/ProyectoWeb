@@ -1,6 +1,7 @@
 <cultivos-primavera>
 
   <cultivo>
+    <imagen></imagen>
     <nombre>FRESA</nombre>
     <comprar>
       <tienda>Semilla de fresa</tienda>
@@ -11,9 +12,11 @@
       <recosecha>Recosecha: 4 días</recosecha>
     </crecimiento>
     <rentabilidad>20,83 G/día</rentabilidad>
+    <comentario></comentario>
   </cultivo>
 
   <cultivo>
+    <imagen></imagen>
     <nombre></nombre>
     <comprar>
       <tienda></tienda>
@@ -24,6 +27,7 @@
       <recosecha></recosecha>
     </crecimiento>
     <rentabilidad></rentabilidad>
+    <comentario></comentario>
   </cultivo>
   
 </cultivos-primavera>
