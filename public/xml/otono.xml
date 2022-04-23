@@ -1,0 +1,122 @@
+<cultivos-primavera>
+    <cultivo>
+        <imagen> </imagen>
+        <nombre>GROSELLA</nombre>
+        <semilla>Semilla de grosella</semilla>
+        <precio>Pierre's: 240 G</precio>
+        <dias>7 días</dias>
+        <recosecha>Recosecha: 5 días</recosecha>
+        <rentabilidad>18,89 G/día</rentabilidad>
+        <comentario> </comentario>
+    </cultivo>
+    <cultivo>
+        <imagen> </imagen>
+        <nombre>CALABAZA</nombre>
+        <semilla>Semilla de calabaza</semilla>
+        <precio>Pierre's: 100 G</precio>
+        <dias>13 días</dias>
+        <recosecha> </recosecha>
+        <rentabilidad>16,92 G/día</rentabilidad>
+        <comentario> </comentario>
+    </cultivo>
+    <cultivo>
+        <imagen> </imagen>
+        <nombre>UVA</nombre>
+        <semilla>Kit de uva</semilla>
+        <precio>Pierre's: 60 G</precio>
+        <dias>10 días</dias>
+        <recosecha>Recosecha: 3 días</recosecha>
+        <rentabilidad>16,80 G/día</rentabilidad>
+        <comentario> </comentario>
+    </cultivo>
+    <cultivo>
+        <imagen> </imagen>
+        <nombre>ALCACHOFA</nombre>
+        <semilla>Semilla de alcachofa</semilla>
+        <precio>Pierre's: 30 G</precio>
+        <dias>8 días</dias>
+        <recosecha> </recosecha>
+        <rentabilidad>16,25 G/día</rentabilidad>
+        <comentario> </comentario>
+    </cultivo>
+    <cultivo>
+        <imagen> </imagen>
+        <nombre>REMOLACHA</nombre>
+        <semilla>Semilla de remolacha</semilla>
+        <precio>Oasis: 20 G</precio>
+        <dias>6 días</dias>
+        <recosecha> </recosecha>
+        <rentabilidad>13,33 G/día</rentabilidad>
+        <comentario> </comentario>
+    </cultivo>
+    <cultivo>
+        <imagen> </imagen>
+        <nombre>AMARANTO</nombre>
+        <semilla>Semilla de amaranto</semilla>
+        <precio>Pierre's: 70 G</precio>
+        <dias>7 días</dias>
+        <recosecha> </recosecha>
+        <rentabilidad>11,43 G/día</rentabilidad>
+        <comentario> </comentario>
+    </cultivo>
+    <cultivo>
+        <imagen> </imagen>
+        <nombre>BERENJENA</nombre>
+        <semilla>Semilla de berenjena</semilla>
+        <precio>Pierre's: 20 G</precio>
+        <dias>5 días</dias>
+        <recosecha> </recosecha>
+        <rentabilidad>11,20 G/día</rentabilidad>
+        <comentario> </comentario>
+    </cultivo>
+    <cultivo>
+        <imagen> </imagen>
+        <nombre>ÑAME</nombre>
+        <semilla>Semilla de ñame</semilla>
+        <precio>Pierre's: 60 G</precio>
+        <dias>10 días</dias>
+        <recosecha> </recosecha>
+        <rentabilidad>10,00 G/día</rentabilidad>
+        <comentario> </comentario>
+    </cultivo>
+    <cultivo>
+        <imagen> </imagen>
+        <nombre>COL CHINA</nombre>
+        <semilla>Semilla de col china</semilla>
+        <precio>Pierre's: 50 G</precio>
+        <dias>4 días</dias>
+        <recosecha> </recosecha>
+        <rentabilidad>7,50 G/día</rentabilidad>
+        <comentario> </comentario>
+    </cultivo>
+    <cultivo>
+        <imagen> </imagen>
+        <nombre>ROSA HADA</nombre>
+        <semilla>Semilla de hada</semilla>
+        <precio>Pierre's: 200 G</precio>
+        <dias>12 días</dias>
+        <recosecha> </recosecha>
+        <rentabilidad>7,50 G/día</rentabilidad>
+        <comentario> </comentario>
+    </cultivo>
+    <cultivo>
+        <imagen> </imagen>
+        <nombre>TRIGO</nombre>
+        <semilla>Semilla de trigo</semilla>
+        <precio>Pierre's: 10 G</precio>
+        <dias>4 días</dias>
+        <recosecha> </recosecha>
+        <rentabilidad>3,75 G/día</rentabilidad>
+        <comentario>(Se puede procesar en un molino para aumentar su valor)</comentario>
+    </cultivo>
+    <cultivo>
+        <imagen> </imagen>
+        <nombre>MAÍZ</nombre>
+        <semilla>Semilla de maíz</semilla>
+        <precio>Pierre's: 150 G</precio>
+        <dias>14 días</dias>
+        <recosecha>Recosecha: 4 días</recosecha>
+        <rentabilidad>1,92 G/día</rentabilidad>
+        <comentario>(Valor si la plantas en otoño, es más rentable plantarla en verano)</comentario>
+    </cultivo>
+</cultivos-primavera>

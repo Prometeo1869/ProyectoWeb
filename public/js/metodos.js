@@ -22,7 +22,7 @@ function aparece(clase) {
     PARAMETRIZAR archivoXML CON EL .xml QUE QUERAMOS CARGAR*/
 function loadXMLDoc(archivoXML) {
     let xmlhttp = new XMLHttpRequest();
-
+    desaparece("titulo");
     xmlhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             rellenarTabla(this);

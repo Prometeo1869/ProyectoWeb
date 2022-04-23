@@ -29,4 +29,114 @@
         <rentabilidad>17,78 G/día</rentabilidad>
         <comentario> </comentario>
     </cultivo>
+    <cultivo>
+        <imagen> </imagen>
+        <nombre>MELÓN</nombre>
+        <semilla>Semilla de melón</semilla>
+        <precio>Pierre's: 80 G</precio>
+        <dias>12 días</dias>
+        <recosecha> </recosecha>
+        <rentabilidad>14,17 G/día</rentabilidad>
+        <comentario> </comentario>
+    </cultivo>
+    <cultivo>
+        <imagen> </imagen>
+        <nombre>LÚPULO</nombre>
+        <semilla>Kit de lúpulo</semilla>
+        <precio>Pierre's: 60 G</precio>
+        <dias>11 días</dias>
+        <recosecha>Recosecha: cada día</recosecha>
+        <rentabilidad>13,52 G/día</rentabilidad>
+        <comentario> </comentario>
+    </cultivo>
+    <cultivo>
+        <imagen> </imagen>
+        <nombre>CHILE</nombre>
+        <semilla>Semilla de chile</semilla>
+        <precio>Pierre's: 40 G</precio>
+        <dias>5 días</dias>
+        <recosecha>Recosecha: 3 días</recosecha>
+        <rentabilidad>10,77 G/día</rentabilidad>
+        <comentario> </comentario>
+    </cultivo>
+    <cultivo>
+        <imagen> </imagen>
+        <nombre>GIRASOL</nombre>
+        <semilla>Semilla de girasol</semilla>
+        <precio>Pierre's: 200 G</precio>
+        <dias>8 días</dias>
+        <recosecha> </recosecha>
+        <rentabilidad>10,00 G/día</rentabilidad>
+        <comentario>(La primera vez que se cosecha no es rentable, por el precio de la semilla)</comentario>
+    </cultivo>
+    <cultivo>
+        <imagen> </imagen>
+        <nombre>TOMATE</nombre>
+        <semilla>Semilla de tomate</semilla>
+        <precio>Pierre's: 50 G</precio>
+        <dias>11 días</dias>
+        <recosecha>Recosecha: 4 días</recosecha>
+        <rentabilidad>9,26 G/día</rentabilidad>
+        <comentario> </comentario>
+    </cultivo>
+    <cultivo>
+        <imagen> </imagen>
+        <nombre>RÁBANO</nombre>
+        <semilla>Semilla de rábano</semilla>
+        <precio>Pierre's: 40 G</precio>
+        <dias>6 días</dias>
+        <recosecha> </recosecha>
+        <rentabilidad>8,33 G/día</rentabilidad>
+        <comentario> </comentario>
+    </cultivo>
+    <cultivo>
+        <imagen> </imagen>
+        <nombre>MAÍZ</nombre>
+        <semilla>Semilla de maíz</semilla>
+        <precio>Pierre's: 150 G</precio>
+        <dias>14 días</dias>
+        <recosecha>Recosecha: 4 días</recosecha>
+        <rentabilidad>7,41 G/día</rentabilidad>
+        <comentario>(La puedes plantar en verano y perdura en otoño)</comentario>
+    </cultivo>
+    <cultivo>
+        <imagen> </imagen>
+        <nombre>AMAPOLA</nombre>
+        <semilla>Semilla de amapola</semilla>
+        <precio>Pierre's: 100 G</precio>
+        <dias>7 días</dias>
+        <recosecha> </recosecha>
+        <rentabilidad>5,71 G/día</rentabilidad>
+        <comentario> </comentario>
+    </cultivo>
+    <cultivo>
+        <imagen> </imagen>
+        <nombre>LENTEJUELA DE VERANO</nombre>
+        <semilla>Semilla de lentejuela</semilla>
+        <precio>Pierre's: 50 G</precio>
+        <dias>8 días</dias>
+        <recosecha> </recosecha>
+        <rentabilidad>5,00 G/día</rentabilidad>
+        <comentario> </comentario>
+    </cultivo>
+    <cultivo>
+        <imagen> </imagen>
+        <nombre>TRIGO</nombre>
+        <semilla>Semilla de trigo</semilla>
+        <precio>Pierre's: 10 G</precio>
+        <dias>4 días</dias>
+        <recosecha> </recosecha>
+        <rentabilidad>3,75 G/día</rentabilidad>
+        <comentario> </comentario>
+    </cultivo>
+    <cultivo>
+        <imagen> </imagen>
+        <nombre>TRIGO</nombre>
+        <semilla>Semilla de trigo</semilla>
+        <precio>Pierre's: 10 G</precio>
+        <dias>4 días</dias>
+        <recosecha> </recosecha>
+        <rentabilidad>3,75 G/día</rentabilidad>
+        <comentario> </comentario>
+    </cultivo>
 </cultivos-verano>
