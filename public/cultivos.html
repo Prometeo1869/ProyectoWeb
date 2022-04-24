@@ -27,7 +27,7 @@
 </head>
 
 <body>
-    <a name="arriba"></a>
+    <a name="inicio"></a>
     <header class="topheader">
         <!--BARRA TOP-->
         <nav class="topnav navbar navbar-expand-md justify-content-between ">
@@ -83,17 +83,22 @@
     </header>
     <!--CONTENIDO CULTIVOS-->
     <div class="cultivos-body row justify-content-center">
-        <div class="cultivos-tabla row justify-content-center m-5">
-            <button class="btn btn-light m-5" onclick="loadXMLDoc('xml/primavera.xml')">PRIMAVERA</button>
-            <button class="btn btn-light m-5" onclick="loadXMLDoc('xml/verano.xml')">VERANO</button>
-            <button class="btn btn-light m-5" onclick="loadXMLDoc('xml/otono.xml')">OTOÑO</button>
-            <table id="tabla1"></table>
+        <div class="cultivos-tabla row justify-content-around">
+            <button class="btn btn-tabla" onclick="loadXMLDoc('xml/primavera.xml')">PRIMAVERA</button>
+            <button class="btn btn-tabla" onclick="loadXMLDoc('xml/verano.xml')">VERANO</button>
+            <button class="btn btn-tabla" onclick="loadXMLDoc('xml/otono.xml')">OTOÑO</button>
+            <table id="tabla1" class="mt-5 col col-12"></table>
         </div>
         <div id="titulo" class="row col col-12 justify-content-center">
-            <h3>CULTIVOS</h3>
+            <div class="card">
+                <div class="card-body row justify-content-center">
+                    <h4 class="card-title">Cultivos</h4>
+                    <img class="card-img-bottom" src="img/estaciones.png" alt="cultivos">
+                </div>
+            </div>
         </div>
         <div class="row col col-12 justify-content-end align-self-end">
-            <a href="#arriba" alt="subir"><span class="btn-subir fa-solid fa-chevron-up"></span></a>
+            <a id="btn-arriba" href="#inicio" alt="subir"><span class="btn-subir fa-solid fa-chevron-up"></span></a>
         </div>
         <!--FOOTER-->
         <footer class="row align-content-end align-self-end">

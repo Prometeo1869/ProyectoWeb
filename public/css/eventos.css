@@ -31,12 +31,12 @@
 .apartados a:hover {
     border: 2px solir red;
 }
-.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
-    color: var(--text-salmon);
+.btn-estaciones{
+    height: 50px;
+    background-color: var(--bg-oscuro-max);
+    color: var(--text-claro);
     font-weight: bold;
-    background: var(--bg-oscuro-max);
-    border: 0;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 #portadaEventos img {
     border-radius: 10px;
@@ -58,6 +58,7 @@
 .btn-home:hover {
     color: var(--text-salmon);
 }
+/*RESPONSIVE*/
 @media (max-width: 525px) {
     .card {
         display: none;

@@ -1,4 +1,4 @@
-<cultivos-primavera>
+<cultivos-otono>
     <cultivo>
         <imagen> </imagen>
         <nombre>GROSELLA</nombre>
@@ -119,4 +119,4 @@
         <rentabilidad>1,92 G/día</rentabilidad>
         <comentario>(Valor si la plantas en otoño, es más rentable plantarla en verano)</comentario>
     </cultivo>
-</cultivos-primavera>
+</cultivos-otono>

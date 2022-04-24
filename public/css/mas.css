@@ -1,0 +1,38 @@
+/*RUTA*/
+.indice a:hover {
+    color: chocolate;
+}
+.btn-home:hover {
+    color: chocolate;
+}
+/*CONTENIDO*/
+.mas-body {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    right: 0px;
+    justify-content: center;
+    overflow: auto;
+    height: calc(100vh - 80px);
+    padding-top: 50px;
+}
+#respuesta {
+    width: 60vw;
+    height: auto;
+    padding: 15px;
+    color: black;
+}
+#loading {
+    display: none;
+}
+/*FOOTER*/
+.redes {
+    border-left: 2px solid chocolate;
+}
+.titulo-pie {
+    color: chocolate;
+}
+.btn-redes:hover {
+    color: chocolate;
+}
+

@@ -23,6 +23,7 @@ function aparece(clase) {
 function loadXMLDoc(archivoXML) {
     let xmlhttp = new XMLHttpRequest();
     desaparece("titulo");
+    document.getElementById("btn-arriba").style.display = 'block';
     xmlhttp.onreadystatechange = function () {
         if (this.readyState == 4 && this.status == 200) {
             rellenarTabla(this);

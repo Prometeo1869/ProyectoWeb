@@ -37,8 +37,25 @@ table th, td {
     border: 4px solid var(--bg-oscuro-max);
     padding: 15px;
 }
-.btn {
+.btn-tabla{
     height: 50px;
+    background-color: var(--bg-oscuro-max);
+    color: var(--text-claro);
+    font-weight: bold;
+    border: 2px solid var(--bg-oscuro-max);
+    border-radius: 10px;
+}
+.btn-tabla:hover{
+    background-color: var(--text-turquesa);
+    color: var(--bg-oscuro-max);
+    border: 2px solid var(--text-turquesa);
+    box-shadow: 4px 4px var(--bg-oscuro-max);
+}
+.btn-tabla:focus{
+    background-color: var(--text-turquesa);
+    border: 2px solid var(--text-turquesa);
+    box-shadow: 4px 4px var(--bg-oscuro-max);
+    text-shadow: 1px 1px 1px var(--bg-oscuro-max);
 }
 .columna1 {
     background-color: var(--bg-oscuro);
@@ -46,6 +63,22 @@ table th, td {
 .btn-subir {
     color: var(--text-turquesa);
     font-size: xx-large;
+}
+#btn-arriba {
+    display: none;
+}
+.card {
+    width: 300px;
+    background-color: var(--bg-oscuro-max);
+    margin: 10px;
+    height: max-content;
+}
+.card img {
+    background-color: var(--text-claro);
+    width: 250px;
+}
+.card-title {
+    color: var(--text-turquesa);
 }
 /*FOOTER*/
 .redes {
@@ -57,6 +90,7 @@ table th, td {
 .btn-redes:hover {
     color: var(--text-turquesa);
 }
+/*RESPONSIVE*/
 @media (max-width: 768px) {
     .cultivos-body {
         width:100vw;
