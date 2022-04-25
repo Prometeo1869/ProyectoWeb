@@ -27,6 +27,7 @@
     height: 10em;
     border: 2px solid white;
     border-radius: 10em;
+    margin-top: 50px;
 }
 .musica {
     background-color: var(--bg-oscuro);
@@ -60,4 +61,16 @@
 .btn-redes:hover {
     color: chocolate;
 }
-
+/*RESPONSIVE*/
+@media (max-width: 731px) {
+    #respuesta {
+        width: 8em;
+        height: 8em;
+    }
+}
+@media (max-width: 568px) {
+    #respuesta {
+        width: 6em;
+        height: 6em;
+    }
+}
