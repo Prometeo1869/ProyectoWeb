@@ -1,28 +1,46 @@
 let loading = document.getElementById('loading');
-let respuesta = document.getElementById('respuesta');
+let hexadecimal = document.getElementById('hexadecimal');
 let boton = document.getElementById('json_get');
 
 boton.addEventListener('click', function () {
-    console.log(document.getElementById('fruta'));
-    if (document.getElementById('fruta').value == '') {
-        alert("Por favor rellene el campo fruta correctamente");
-    } else {
+    console.log(document.getElementById('red'));
+    console.log(document.getElementById('green'));
+    console.log(document.getElementById('blue'));
+    if (document.getElementById('red').value == '' || document.getElementById('green').value == '' ||
+    document.getElementById('blue').value == '') {
+        alert("Por favor, rellene los 3 campos correctamente");
+    } else if (document.getElementById('red').value < 0 || document.getElementById('red').value > 255) {
+        alert("Valores entre 0 y 255");
+        document.getElementById('red').value = '';
+        document.getElementById('red').focus();
+    } else if (document.getElementById('green').value < 0 || document.getElementById('green').value > 255) {
+        alert("Valores entre 0 y 255");
+        document.getElementById('green').value = '';
+        document.getElementById('green').focus();
+    } else if (document.getElementById('blue').value < 0 || document.getElementById('blue').value > 255) {
+        alert("Valores entre 0 y 255");
+        document.getElementById('blue').value = '';
+        document.getElementById('blue').focus();
+    } else 
+    {
         loading.style.display = 'block';
-        axios.get('https://www.fruityvice.com/api/fruit/' + document.getElementById('fruta').value,
+        axios.get('https://x-colors.herokuapp.com/api/rgb2hex?value=' + document.getElementById('red').value +
+        '-' + document.getElementById('green').value + '-' + document.getElementById('blue').value,
             {
                 responseType: 'json'
             })
             .then(function (res) {
                 if (res.status == 200) {
                     console.log(res.data);
-                    respuesta.innerHTML = res.data.name;
+                    document.getElementById('hexadecimal').value = res.data.hex;
+                    document.getElementById('respuesta').style.background = res.data.hex;
                 }
                 console.log(res);
             })
             .catch(function (err) {
 
                 console.log(err);
-                respuesta.innerHTML = "La fruta que busca no se encuentra en nuestra base de datos";
+                document.getElementById('hexadecimal').value = "ERROR";
             })
             .then(function () {
                 loading.style.display = 'none';

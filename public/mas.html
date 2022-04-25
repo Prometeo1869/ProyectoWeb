@@ -82,24 +82,31 @@
     </header>
     <!--CONTENIDO-->
     <div class="mas-body row">
-        <div class="row col col-12">
-            <form class="font-weight-bold text-light mt-5 justify-content-around">
-                Fruta: <input id="fruta" class="mr-5" type="text" value="">
-                <button id="json_get" class="btn botonApi bg-warning font-weight-bold" type="button">Búsqueda</button>
+        <div class="row col col-12 justify-content-around">
+            <form class="font-weight-bold text-light m-3">
+                <div class="caja row justify-content-around">
+                    <div class="col col-8 pl-5 p-3">
+                        R: <input id="red" class="m-3" type="number" min="0" max="255" value="">
+                        G: <input id="green" class="m-3" type="number" min="0" max="255" value="">
+                        B: <input id="blue" class="m-3" type="number" min="0" max="255" value="">
+                        <button id="json_get" class="btn botonApi font-weight-bold m-3" type="button">Convertir</button>
+                        <div id="loading">cargando...</div>
+                    </div>
+                    <div class="col col-3 mr-md-5">
+                        <div id="respuesta" class="mt-5 m-md-3 p-3"></div>
+                    </div>
+                    <div class="col col-8 pl-5 p-3">
+                        HEXADECIMAL: <input id="hexadecimal" class="m-3" type="text" value="">
+                    </div>
+                </div>
             </form>
-
-            <div class="row col col-12 justify-content-center">
-                <div id="respuesta" class=" row bg-light mt-4"></div>
-                <div id="loading">cargando...</div>
-            </div>
+            
         </div>
-        <!--<div class="row col col-12 justify-content-center align-self-end">
-            <iframe class="ml-5" width="90%" height="125" scrolling="no" frameborder="no"
-            src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/163125391&amp;color=0066cc&amp;auto_play=false&amp;hide_related=false&amp;show_comments=false&amp;show_user=true&amp;show_reposts=false"></iframe>
-        </div>-->
-
         <!--FOOTER-->
         <footer class="row align-content-end align-self-end">
+            <div class="musica row justify-content-center align-content-end">
+                <iframe width="90%" height="100px" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/333485993&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
+            </div>    
             <div class="pie row">
                 <!--justify-content-around-->
                 <div class="col col-4 pie1">
@@ -162,49 +169,16 @@
                         </button>
                     </a>
                     <a href="https://play.google.com/store/apps/details?id=com.chucklefish.stardewvalley"
-                        target="_blank">
-                        <button class="btn-redes">
-                            <span class="fa-brands fa-google-play"></span>
-                        </button>
-                    </a>
-                </div>
+                    target="_blank">
+                    <button class="btn-redes">
+                        <span class="fa-brands fa-google-play"></span>
+                    </button>
+                </a>
             </div>
-        </footer>
-    </div>
+        </div>
+    </footer>
+</div>
 </body>
-    <script>
-        let loading = document.getElementById('loading');
-        let respuesta = document.getElementById('respuesta');
-        let boton = document.getElementById('json_get');
-        
-        boton.addEventListener('click', function () {
-            console.log(document.getElementById('fruta'));
-            if (document.getElementById('fruta').value == '') {
-                alert("Por favor rellene el campo fruta correctamente");
-            } else {
-                loading.style.display = 'block';
-                axios.get('https://x-colors.herokuapp.com/api/rgb2hex?value=' + document.getElementById('fruta').value,
-                    {
-                        responseType: 'json'
-                    })
-                    .then(function (res) {
-                        if (res.status == 200) {
-                            console.log(res.data);
-                            respuesta.innerHTML = res.data.hex;
-                        }
-                        console.log(res);
-                    })
-                    .catch(function (err) {
-
-                        console.log(err);
-                        respuesta.innerHTML = "La fruta que busca no se encuentra en nuestra base de datos";
-                    })
-                    .then(function () {
-                        loading.style.display = 'none';
-                    });
-            }
-        });
-    </script>
-<!--<script type="text/javascript" src="js/apifruit.js"></script>-->
+<script type="text/javascript" src="js/apifruit.js"></script>
 
 </html>
