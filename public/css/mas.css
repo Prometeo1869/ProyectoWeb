@@ -23,8 +23,8 @@
     border-radius: 30px;
 }
 #respuesta {
-    width: 10em;
-    height: 10em;
+    width: 15em;
+    height: 15em;
     border: 2px solid white;
     border-radius: 10em;
     margin-top: 50px;
@@ -35,21 +35,6 @@
 }
 #loading {
     display: none;
-}
-.botonApi {
-    height: 50px;
-    background-color: var(--bg-oscuro-max);
-    color: var(--text-claro);
-    font-weight: bold;
-    border: 2px solid var(--bg-oscuro-max);
-    border-radius: 10px;
-}
-.botonApi:hover{
-    background-color: chocolate;
-    color: var(--text-claro);
-    text-shadow: 1px 1px 1px var(--bg-oscuro-max);
-    border: 2px solid chocolate;
-    box-shadow: 4px 4px var(--bg-oscuro-max);
 }
 /*FOOTER*/
 .redes {
@@ -64,13 +49,13 @@
 /*RESPONSIVE*/
 @media (max-width: 731px) {
     #respuesta {
-        width: 8em;
-        height: 8em;
+        width: 12em;
+        height: 12em;
     }
 }
 @media (max-width: 568px) {
     #respuesta {
-        width: 6em;
-        height: 6em;
+        width: 10em;
+        height: 10em;
     }
 }

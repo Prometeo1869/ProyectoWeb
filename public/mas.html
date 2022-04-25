@@ -85,14 +85,13 @@
         <div class="row col col-12 justify-content-around">
             <form class="font-weight-bold text-light m-3">
                 <div class="caja row justify-content-around">
-                    <div class="col col-8 pl-3 pl-md-5 p-3">
-                        R: <input id="red" class="m-md-3" type="number" min="0" max="255" value="">
-                        G: <input id="green" class="m-md-3" type="number" min="0" max="255" value="">
-                        B: <input id="blue" class="m-md-3" type="number" min="0" max="255" value="">
-                        <button id="json_get" class="btn botonApi font-weight-bold m-3" type="button">Convertir</button>
+                    <div class="col col-4 pl-3 pl-md-5 p-3">
+                        <p>R: <input id="red" class="colores m-md-3" type="number" min="0" max="255" value="0"></p>
+                        <p>G: <input id="green" class="colores m-md-3" type="number" min="0" max="255" value="0"></p>
+                        <p>B: <input id="blue" class="colores m-md-3" type="number" min="0" max="255" value="0"></p>
                         <div id="loading">cargando...</div>
                     </div>
-                    <div class="col col-3 mr-md-5 mr-3">
+                    <div class="col col-6 mr-md-5 mr-3">
                         <div id="respuesta" class=""></div>
                     </div>
                     <div class="col col-8 pl-5 p-3">
