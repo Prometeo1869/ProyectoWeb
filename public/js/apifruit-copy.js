@@ -16,12 +16,11 @@ let boton = document.getElementById('json_get');
                 .then(function (res) {
                     if (res.status == 200) {
                         console.log(res.data);
-                        document.getElementById('hexadecimal').value = res.data.genus;
+                        document.getElementById('hexadecimal').value = res.data.name;
                     }
                     console.log(res);
                 })
                 .catch(function (err) {
-
                     console.log(err);
                     document.getElementById('hexadecimal').value = "ERROR";
                 })
