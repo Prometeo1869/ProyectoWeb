@@ -37,6 +37,16 @@ table th, td {
     border: 4px solid var(--bg-oscuro-max);
     padding: 15px;
 }
+.columna1 {
+    background-color: var(--bg-oscuro);
+}
+
+tr:hover td {
+    background: var(--bg-oscuro);
+}
+tr:hover td.columna1 {
+    background: var(--bg-oscuro-max);
+}
 .btn-tabla{
     height: 50px;
     background-color: var(--bg-oscuro-max);
@@ -56,9 +66,6 @@ table th, td {
     border: 2px solid var(--text-turquesa);
     box-shadow: 4px 4px var(--bg-oscuro-max);
     text-shadow: 1px 1px 1px var(--bg-oscuro-max);
-}
-.columna1 {
-    background-color: var(--bg-oscuro);
 }
 .btn-subir {
     color: var(--text-turquesa);
