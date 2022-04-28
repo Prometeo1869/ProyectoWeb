@@ -25,8 +25,8 @@ for (let i = 0; i < colores.length; i++) {
             document.getElementById('blue').focus();
         } else {
             loading.style.display = 'block';
-            axios.get('https://apicolor.herokuapp.com/api/' + document.getElementById('red').value +
-                '-' + document.getElementById('green').value + '-' + document.getElementById('blue').value,
+            axios.get('https://apicolor.herokuapp.com/api/random/' + document.getElementById('red').value /*+
+                '-' + document.getElementById('green').value + '-' + document.getElementById('blue').value*/,
                 {
                     responseType: 'json'
                 })
