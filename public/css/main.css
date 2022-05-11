@@ -99,7 +99,6 @@ a {
 }
 /*BOTÓN BARRAS*/
 .abrir-menu {
-    color: var(--text-naranja);
     background: none;
     border: none;
     font-size: 35px;
@@ -108,7 +107,6 @@ a {
 /*BARRA SECUNDARIA*/
 .indice {
     background-color: #546987e6;
-    /*filter: blur(8px);*/
     text-decoration: none;
     padding: 10px 0;
 }
@@ -175,9 +173,6 @@ footer {
 }
 @media (max-width: 768px) {
     .indice {
-        display: none;
-    }
-    .pie {
         display: none;
     }
 }

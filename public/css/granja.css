@@ -1,3 +1,6 @@
+.abrir-menu {
+    color: var(--text-turquesa);
+}
 /*RUTA*/
 .indice a:hover {
     color: var(--text-turquesa);
