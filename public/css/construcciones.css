@@ -18,6 +18,10 @@
 .table {
     width: 90vw;
 }
+table.table tbody tr td a {
+    text-decoration: none;
+    color: white;
+}
 .btn-subir {
     color: var(--text-turquesa);
     font-size: xx-large;
