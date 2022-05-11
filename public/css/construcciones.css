@@ -12,7 +12,11 @@
     left:10px;
     right: 10px;
     height: calc(100vh - 160px);
-    text-shadow: 1px 1px 3px var(--bg-oscuro-max);
+    /*text-shadow: 1px 1px 3px var(--bg-oscuro-max);*/
+    
+}
+.table {
+    width: 90vw;
 }
 .btn-subir {
     color: var(--text-turquesa);
@@ -27,4 +31,14 @@
 }
 .btn-redes:hover {
     color: var(--text-turquesa);
+}
+/*RESPONSIVE*/
+@media (max-width: 770px) {
+    .table {
+        width: 100vw;
+        font-size: 0.7em;
+    }
+    .table img {
+        width: auto;
+    }
 }
