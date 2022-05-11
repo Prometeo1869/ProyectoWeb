@@ -19,14 +19,13 @@
     height: calc(100vh - 80px);
     padding-top: 50px;
 }
-.mapa-img {
-    margin-top: 50px;
+h1 {
+    color: chartreuse;
 }
-.mapa-img img {    
-    border-radius: 25px;
-}
-.mapa-dividido {
-    display: none;
+.col img {
+    max-width: 85vw;
+    max-height: 75vh;
+    border-radius: 10px;
 }
 /*FOOTER*/
 .redes {
@@ -38,22 +37,7 @@
 .btn-redes:hover {
     color: chartreuse;
 }
-
+/*RESPONSIVE*/
 @media (max-width: 768px) {
-    .mapa-img {
-        display: none;
-    }
-    .mapa-dividido {
-        position: relative;
-        display: block;
-        width: 100vw;
-        margin-bottom: 25px;
-        margin-left: auto;
-        margin-right: auto;
-        
-    }
-    .mapa-dividido a {
-        text-decoration: none;
-        color: chartreuse;
-    }
+    .col img {width: 90vw;}
 }
