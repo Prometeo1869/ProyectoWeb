@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Cuestionario</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS BootStrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- my CSS -->
+    <link type="text/css" rel="stylesheet" href="css/main.css" />
+    <link type="text/css" rel="stylesheet" href="css/cuestionario.css" />
+    <!--Iconos FontAwesome-->
+    <script src="https://kit.fontawesome.com/3128a69e9d.js" crossorigin="anonymous"></script>
+    <!--Icono Página-->
+    <link rel="icon" type="image/jpg" href="img/icono.ico">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="#"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+    <!--AXIOS-->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</head>
+
+<body>
+    <a name="arriba"></a>
+    <header class="topheader">
+        <!--BARRA TOP-->
+        <nav class="topnav navbar navbar-expand-md justify-content-between ">
+            <!--LOGO-->
+            <a class="navbar-brand" href="index.html">
+                <img class="logo" src="img/icono.ico" alt="home"></img>
+            </a>
+            <!--BOTÓN BARRAS-->
+            <button class="abrir-menu navbar-toggler" type="button" data-toggle="collapse" data-target="#desplegable"
+                aria-label="Abrir menú" alt="abrir">
+                <span class="fa-solid fa-bars"></span>
+            </button>
+            <!--MENÚ DESPLEGABLE-->
+            <div class="collapse navbar-collapse" id="desplegable">
+                <ul class="nav-menu navbar-nav list-unstyled text-uppercase text-center">
+                    <li class="inicioh nav-item mr-xl-5 mr-lg-4 mr-md-2">
+                        <a href="index.html" class="inicio nav-link text-decoration-none">Inicio</a>
+                    </li>
+                    <li class="granjah nav-item mr-xl-5 mr-lg-4 mr-md-2">
+                        <a href="granja.html" class="granja nav-link text-decoration-none">Granja</a>
+                    </li>
+                    <li class="eventosh nav-item mr-xl-5 mr-lg-4 mr-md-2">
+                        <a href="eventos.html" class="eventos nav-link text-decoration-none">Eventos</a>
+                        <!--onclick="enlace('eventos.html')"-->
+                    </li>
+                    <li class="aldeanosh nav-item mr-xl-5 mr-lg-4 mr-md-2">
+                        <a href="aldeanos.html" class="aldeanos nav-link text-decoration-none">Aldeanos</a>
+                        <!--onclick="enlace('aldeanos.html')"-->
+                    </li>
+                    <li class="mapah nav-item mr-xl-5 mr-lg-4 mr-md-2">
+                        <a href="mapa.html" class="mapa nav-link text-decoration-none">Mapa</a>
+                    </li>
+                    <li class="mash nav-item mr-xl-5 mr-lg-4 mr-md-2">
+                        <a href="mas.html" class="mas nav-link text-decoration-none">Más</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!--BARRA SECUNDARIA-->
+        <div class="indice row align-items-center">
+            <!--RUTA-->
+            <div class="col col-6 pl-5">
+                <a href="index.html" class="home">
+                    <button class="btn-home">
+                        <span class="fa-solid fa-house-chimney-window"></span>
+                    </button>
+                </a> <b style="color: chocolate">&nbsp>&nbsp</b>
+                <a href="mas.html"><b>Más</b></a>
+            </div>
+
+        </div>
+    </header>
+    <!--CONTENIDO-->
+    <div class="cuestionario-body row">
+        <div id="cuestionario" class="wrapper">
+            <div class="caja">
+                <form class="form-wrapper">
+                    <div class="row flex ml-2 justify-content-center col-12">
+                        <h3>1.¿Quien es el heredero del titán Acorazado?</h3>
+                    </div>
+                    <hr>
+                    <div class="row cf">
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r1" id="r1" value="0"><label for="r1" class="respuesta">
+                                <h4>A.Eren </h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r1" id="r2" value="1"><label for="r2" class="respuesta">
+                                <h4>B.Reiner</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r1" id="r3" value="0"><label for="r3" class="respuesta">
+                                <h4>C.Bertholdt</h4>
+                            </label>
+                        </div>
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
+
+
+            <div class="caja">
+                <form class="form-wrapper">
+                    <div class="row flex ml-2 justify-content-center col-12">
+                        <h3>2.¿Quién es el hermano/a de Eren?</h3>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r2" id="r4" value="1"><label for="r4" class="respuesta">
+                                <h4>A.Zeke</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r2" id="r5" value="0"><label for="r5" class="respuesta">
+                                <h4>B.Mikasa</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r2" id="r6" value="0"><label for="r6" class="respuesta">
+                                <h4>C.Armin</h4>
+                            </label>
+                        </div>
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
+
+
+            <div class="caja">
+                <form class="form-wrapper">
+                    <div class="row flex ml-2 justify-content-center col-12">
+                        <h3>3¿Quien es el difunto amigo de Jean?</h3>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r3" id="r7" value="0"><label for="r7" class="respuesta">
+                                <h4>A.Marcel</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r3" id="r8" value="1"><label for="r8" class="respuesta">
+                                <h4>B.Marco</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r3" id="r9" value="0"><label for="r9" class="respuesta">
+                                <h4>C.Marlo</h4>
+                            </label>
+                        </div>
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
+
+
+            <div class="caja">
+                <form class="form-wrapper">
+                    <div class="row flex ml-2 justify-content-center col-12">
+                        <h3>4.¿Quien es el primer heredero del Titán de Ataque que se muestra en la serie?</h3>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r4" id="r10" value="0"><label for="r10" class="respuesta">
+                                <h4>A.Eren Jaeger</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r4" id="r11" value="0"><label for="r11" class="respuesta">
+                                <h4>B.Grisha Jaeger</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r4" id="r12" value="1"><label for="r12" class="respuesta">
+                                <h4>C.Eren Kruger</h4>
+                            </label>
+                        </div>
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
+
+
+
+            <div class="caja">
+                <form class="form-wrapper">
+                    <div class="row flex ml-2 justify-content-center col-12">
+                        <h3>5¿Quién es el soldado con mayor puntuación de la promoción de Eren y los demás?</h3>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r5" id="r13" value="0"><label for="r13" class="respuesta">
+                                <h4>A.Annie</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r5" id="r14" value="0"><label for="r14" class="respuesta">
+                                <h4>B.Reiner</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r5" id="r15" value="1"><label for="r15" class="respuesta">
+                                <h4>C.Mikasa</h4>
+                            </label>
+                        </div>
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
+
+
+
+            <div class="caja">
+                <form class="form-wrapper">
+                    <div class="row flex ml-2 justify-content-center col-12">
+                        <h3>6.¿Cuántos años tenía Eren cuando falleció su madre?</h3>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r6" id="r16" value="0"><label for="r16" class="respuesta">
+                                <h4>A.12 años</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r6" id="r17" value="0"><label for="r17" class="respuesta">
+                                <h4>B.13 años</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r6" id="r18" value="1"><label for="r18" class="respuesta">
+                                <h4>C.10 años</h4>
+                            </label>
+                        </div>
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
+
+
+            <div class="caja">
+                <form class="form-wrapper">
+                    <div class="row flex ml-2 justify-content-center col-12">
+                        <h3>7.¿Cuál era el sueño de Armin?</h3>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r7" id="r19" value="0"><label for="r19" class="respuesta">
+                                <h4>A.Conseguir la libertad.</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r7" id="r20" value="1"><label for="r20" class="respuesta">
+                                <h4>B.Ver el mar.</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r7" id="r21" value="0"><label for="r21" class="respuesta">
+                                <h4>C.Acabar con los titanes.</h4>
+                            </label>
+                        </div>
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
+
+
+            <div class="caja">
+                <form class="form-wrapper">
+                    <div class="row flex ml-2 justify-content-center col-12">
+                        <h3>8.¿Cuantos titanes porta Eren al final de la serie?</h3>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r8" id="r22" value="0"><label for="r22" class="respuesta">
+                                <h4>A.1</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r8" id="r23" value="0"><label for="r23" class="respuesta">
+                                <h4>B.2</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r8" id="r24" value="1"><label for="r24" class="respuesta">
+                                <h4>C.3</h4>
+                            </label>
+                        </div>
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
+
+            <div class="caja">
+                <form class="form-wrapper">
+                    <div class="row flex ml-2 justify-content-center col-12">
+                        <h3>9.¿A quien iba a revivir Levi en un principio?</h3>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 col-sm-6 mb-0">
+                            <input type="radio" name="r9" id="r25" value="0"><label for="r25" class="respuesta">
+                                <h4>A.Armin</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-6 mb-0">
+                            <input type="radio" name="r9" id="r26" value="1"><label for="r26" class="respuesta">
+                                <h4>B.Erwin</h4>
+                            </label>
+                        </div>
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
+
+
+            <div class="caja">
+                <form class="form-wrapper">
+                    <div class="row flex ml-2 justify-content-center col-12">
+                        <h3>10.¿Quien es el portador del titán mandíbula del castillo en la 2da temporada?</h3>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r10" id="r27" value="1"><label for="r27" class="respuesta">
+                                <h4>A.Ymir</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r10" id="r28" value="0"><label for="r28" class="respuesta">
+                                <h4>B.Christa</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r10" id="r29" value="0"><label for="r29" class="respuesta">
+                                <h4>C.Sasha</h4>
+                            </label>
+                        </div>
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
+
+
+            <div class="caja">
+                <form class="form-wrapper">
+                    <div class="row flex ml-2 justify-content-center col-12">
+                        <h3>11.¿Quién es el titán más fuerte físicamente?</h3>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r11" id="r30" value="0"><label for="r30" class="respuesta">
+                                <h4>A.Titán de Ataque</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r11" id="r31" value="1"><label for="r31" class="respuesta">
+                                <h4>B.Titán Colosal</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r11" id="r32" value="0"><label for="r32" class="respuesta">
+                                <h4>C.Titán Martillo.</h4>
+                            </label>
+                        </div>
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
+
+
+            <div class="caja">
+                <form class="form-wrapper">
+                    <div class="row flex ml-2 justify-content-center col-12">
+                        <h3>12.¿Qué titán hereda Falco?</h3>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r12" id="r33" value="0"><label for="r33" class="respuesta">
+                                <h4>A.Titán Acorazado.</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r12" id="r34" value="0"><label for="r34" class="respuesta">
+                                <h4>B.Titán Bestia</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r12" id="r35" value="1"><label for="r35" class="respuesta">
+                                <h4>C.Titán Mandíbula.</h4>
+                            </label>
+                        </div>
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
+
+
+
+            <div class="caja">
+                <form class="form-wrapper">
+                    <div class="row flex ml-2 justify-content-center col-12">
+                        <h3>13.¿Quién es el soldado más fuerte de la humanidad?</h3>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r13" id="r36" value="1"><label for="r36" class="respuesta">
+                                <h4>A.Levi Ackerman</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r13" id="r37" value="0"><label for="r37" class="respuesta">
+                                <h4>B.Mikasa Ackerman</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r13" id="r38" value="0"><label for="r38" class="respuesta">
+                                <h4>C.Kenny Ackerman</h4>
+                            </label>
+                        </div>
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
+
+
+            <div class="caja">
+                <form class="form-wrapper">
+                    <div class="row flex ml-2 justify-content-center col-12">
+                        <h3>14.¿Cuál es la capacidad especial del Titán de Ataque?</h3>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r14" id="r39" value="0"><label for="r39" class="respuesta">
+                                <h4>A.Controlar a los titanes.</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r14" id="r40" value="0"><label for="r40" class="respuesta">
+                                <h4>B.Tener una armadura.</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r14" id="r41" value="1"><label for="r41" class="respuesta">
+                                <h4>C.Ver recuerdos de herederos futuros</h4>
+                            </label>
+                        </div>
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
+
+
+            <div class="caja">
+                <form class="form-wrapper">
+                    <div class="row flex ml-2 justify-content-center col-12">
+                        <h3>15.¿Quién le enseña a Eren a luchar?</h3>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r15" id="r42" value="0"><label for="r42" class="respuesta">
+                                <h4>A.Su padre</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r15" id="r43" value="0"><label for="r43" class="respuesta">
+                                <h4>B.Mikasa</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r15" id="r44" value="1"><label for="r44" class="respuesta">
+                                <h4>C.Annie</h4>
+                            </label>
+                        </div>
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
+
+
+
+            <div class="caja">
+                <form class="form-wrapper">
+                    <div class="row flex ml-2 justify-content-center col-12">
+                        <h3>16¿Cuál es el verdadero apellido de los herederos de sangre real?</h3>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r16" id="r45" value="0"><label for="r45" class="respuesta">
+                                <h4>A.Reiss</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r16" id="r46" value="1"><label for="r46" class="respuesta">
+                                <h4>B.Fritz</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r16" id="r47" value="0"><label for="r47" class="respuesta">
+                                <h4>C.Jaeger</h4>
+                            </label>
+                        </div>
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
+
+
+            <div class="caja">
+                <form class="form-wrapper">
+                    <div class="row flex ml-2 justify-content-center col-12">
+                        <h3>17¿A qué facción pertenece Pixis?</h3>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r17" id="r48" value="1"><label for="r48" class="respuesta">
+                                <h4>A.Guarnición</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r17" id="r49" value="0"><label for="r49" class="respuesta">
+                                <h4>B.Legión</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r17" id="r50" value="0"><label for="r50" class="respuesta">
+                                <h4>C.Policía militar</h4>
+                            </label>
+                        </div>
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
+
+
+            <div class="caja">
+                <form class="form-wrapper">
+                    <div class="row flex justify-content-center col-12">
+                        <h3>18.¿Quién mata a Erwin?</h3>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r18" id="r51" value="1"><label for="r51" class="respuesta">
+                                <h4>A.Zeke</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r18" id="r52" value="0"><label for="r52" class="respuesta">
+                                <h4>B.Bertholdt</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r18" id="r53" value="0"><label for="r53" class="respuesta">
+                                <h4>C.Reiner</h4>
+                            </label>
+                        </div>
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
+
+
+
+
+            <div class="caja">
+                <form class="form-wrapper">
+                    <div class="row flex ml-2 justify-content-center col-12">
+                        <h3>19.¿Cuál es el último de los nueve titanes que se nos muestra?</h3>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r19" id="r54" value="0"><label for="r54" class="respuesta">
+                                <h4>A.Titán carguero</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r19" id="r55" value="0"><label for="r55" class="respuesta">
+                                <h4>B.Titán mandíbula</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r19" id="r56" value="1"><label for="r56" class="respuesta">
+                                <h4>C.Titán Martillo</h4>
+                            </label>
+                        </div>
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
+
+
+            <div class="caja">
+                <form class="form-wrapper">
+                    <div class="row flex ml-2 justify-content-center col-12">
+                        <h3>20.¿Por qué Eren decide activar el retumbar para acabar con el mundo exterior?</h3>
+                    </div>
+                    <hr>
+                    <div class="row">
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r20" id="r57" value="0"><label for="r57" class="respuesta">
+                                <h4>A.Para vengar a su madre</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r20" id="r58" value="1"><label for="r58" class="respuesta">
+                                <h4>B.Para proteger a sus amigos</h4>
+                            </label>
+                        </div>
+                        <div class="col-12 col-sm-4 mb-0">
+                            <input type="radio" name="r20" id="r59" value="0"><label for="r59" class="respuesta">
+                                <h4>C.Para ser libre</h4>
+                            </label>
+                        </div>
+                    </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+
+
+        <div id="puntuacion">
+            <div class="row justify-content-center">
+                <h3 id="mensaje_aprobado">RESULTADOS FORMULARIO</h3>
+            </div>
+            <div class="row justify-content-center ">
+                <div id="nota" class="col-6 text-center">elpepe</div>
+                <div id="aciertos" class="col-6 text-center">que tal</div>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <button id="enviar_formulario" class="boton_submit" onclick="enviarDatos()">Enviar</button>
+        </div>
+
+
+
+        <!--FOOTER-->
+        <footer class="row align-content-end align-self-end">
+            <div class="pie row">
+                <!--justify-content-around-->
+                <div class="col col-4 pie1">
+                    <p class="titulo-pie">
+                        Fan Stardew Valley
+                    </p>
+                    <p class="texto-pie">
+                        Esta web es el trabajo de fin de curso de la asignatura de Lenguajes de Marcas y Sistemas de
+                        Gestión
+                        del 1º
+                        curso del Grado Superior en
+                        Desarrollo de Aplicaciones Multiplataforma.
+                    </p>
+                </div>
+                <div class="col col-4 redes">
+                    <!--REDES SOCIALES-->
+                    <p class="titulo-pie">Sigue Stardew Valley:</p>
+                    <a href="https://discord.com/invite/StardewValley" target="_blank">
+                        <button class="btn-redes">
+                            <span class="fa-brands fa-discord"></span>
+                        </button>
+                    </a>
+                    <a href="https://www.reddit.com/r/StardewValley/" target="_blank">
+                        <button class="btn-redes">
+                            <span class="fa-brands fa-reddit"></span>
+                        </button>
+                    </a>
+                    <a href="https://twitter.com/concernedape" target="_blank">
+                        <button class="btn-redes">
+                            <span class="fa-brands fa-twitter"></span>
+                        </button>
+                    </a>
+                    <a href="https://www.facebook.com/StardewValley" target="_blank">
+                        <button class="btn-redes">
+                            <span class="fa-brands fa-facebook"></span>
+                        </button>
+                    </a>
+                </div>
+                <div class="col col-4 redes">
+                    <p class="titulo-pie">Comprar aquí:</p>
+                    <!--ENLACES DE COMPRA-->
+                    <a href="https://store.steampowered.com/app/413150/Stardew_Valley/" target="_blank">
+                        <button class="btn-redes">
+                            <span class="fa-brands fa-steam"></span>
+                        </button>
+                    </a>
+                    <a href="https://www.xbox.com/en-gb/games/store/stardew-valley/c3d891z6tnqm" target="_blank">
+                        <button class="btn-redes">
+                            <span class="fa-brands fa-xbox"></span>
+                        </button>
+                    </a>
+                    <a href="https://www.playstation.com/en-us/games/stardew-valley/" target="_blank">
+                        <button class="btn-redes">
+                            <span class="fa-brands fa-playstation"></span>
+                        </button>
+                    </a>
+                    <a href="https://apps.apple.com/us/app/stardew-valley/id1406710800" target="_blank">
+                        <button class="btn-redes">
+                            <span class="fa-brands fa-app-store-ios"></span>
+                        </button>
+                    </a>
+                    <a href="https://play.google.com/store/apps/details?id=com.chucklefish.stardewvalley"
+                        target="_blank">
+                        <button class="btn-redes">
+                            <span class="fa-brands fa-google-play"></span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+<script type="text/javascript" src="js/cuestionario.js"></script>
+
+</html>
