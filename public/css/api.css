@@ -1,0 +1,64 @@
+.abrir-menu {
+    color: chocolate;
+}
+/*RUTA*/
+.indice a:hover {
+    color: chocolate;
+}
+.btn-home:hover {
+    color: chocolate;
+}
+/*CONTENIDO*/
+.mas-body {
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    right: 0px;
+    justify-content: center;
+    overflow: auto;
+    height: calc(100vh - 80px);
+    padding-top: 50px;
+}
+.caja {
+    text-shadow: 1px 1px 1px var(--bg-oscuro-max);
+    background-color: var(--bg-oscuro);
+    border: 5px solid chocolate;
+    border-radius: 30px;
+}
+#respuesta {
+    width: 15em;
+    height: 15em;
+    border: 2px solid white;
+    border-radius: 10em;
+    margin-top: 50px;
+}
+.musica {
+    background-color: var(--bg-oscuro);
+    width: 100vw;
+}
+#loading {
+    display: none;
+}
+/*FOOTER*/
+.redes {
+    border-left: 2px solid chocolate;
+}
+.titulo-pie {
+    color: chocolate;
+}
+.btn-redes:hover {
+    color: chocolate;
+}
+/*RESPONSIVE*/
+@media (max-width: 731px) {
+    #respuesta {
+        width: 12em;
+        height: 12em;
+    }
+}
+@media (max-width: 568px) {
+    #respuesta {
+        width: 10em;
+        height: 10em;
+    }
+}

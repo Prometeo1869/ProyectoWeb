@@ -44,12 +44,6 @@
     color: var(--text-turquesa);
 }
 @media (min-width: 768px) {
-    .aldeanos-body {
-    position: absolute;
-    top: 180px;
-    left:10px;
-    right: 10px;
-    }
     .card {
         width: 280px;
         margin-top: 100px;

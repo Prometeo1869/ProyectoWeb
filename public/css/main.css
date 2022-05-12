@@ -11,11 +11,17 @@
     --degradado: linear-gradient(195deg, #546986, #1b2638 30%);
 }
 * {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 ::-webkit-scrollbar {
     display: none;
 }
+html {
+    margin-left: calc(100vw - 100%);
+    margin-right: 0;
+   }
 body {
     font-family: Cardana, Verdana, Geneva, Tahoma, sans-serif;
     background-color: var(--bg-primario);

@@ -2,21 +2,23 @@ function enviarDatos() {
     let suma = parseInt(0);
     let resueltos = parseInt(0);
     let lista = document.getElementsByTagName("input");
-    for(var i = 0;i < lista.length - 1;i++){
+    for(let i = 0;i < lista.length;i++) {
         if (lista[i].checked){
-            suma = suma + parseInt(list[i].value);
+            suma = suma + parseInt(lista[i].value);
             resueltos = resueltos + 1;
         }
     }
-    if(resueltos < 20) {
+    if(resueltos < 15) {
         alert("Marca todas las preguntas");
     } else {
         let nota = parseFloat(suma / resueltos) * 10;
-        document.getElementById('nota').innerHTML = "Nota: " + nota.toFixed(2);
-        document.getElementById('aciertos').innerHTML = "Aciertos" + suma + "/" + resueltos
+        document.getElementById('nota').innerHTML = `<h5>Nota: ${nota.toFixed(2)}</h5>`;
+        document.getElementById('aciertos').innerHTML = `<h5>Aciertos: ${suma} / ${resueltos}</h5>`;
         document.getElementById('cuestionario').style.display = "none";
         document.getElementById('enviar_formulario').style.display = "none";
+        document.getElementById('titulo1').style.display = "none";
         document.getElementById('puntuacion').style.display = "block";
+        document.getElementById('mensaje_aprobado').style.display = "block";
     }
 }
 

@@ -12,32 +12,26 @@
 .mas-body {
     position: absolute;
     top: 80px;
-    left: 0px;
-    right: 0px;
-    justify-content: center;
-    overflow: auto;
+    left:10px;
+    right: 10px;
+    justify-content: space-evenly;
     height: calc(100vh - 80px);
-    padding-top: 50px;
 }
-.caja {
-    text-shadow: 1px 1px 1px var(--bg-oscuro-max);
-    background-color: var(--bg-oscuro);
-    border: 5px solid chocolate;
-    border-radius: 30px;
+.card {
+    width: 300px;
+    background-color: var(--bg-oscuro-max);
+    margin: 10px;
+    height: max-content;
 }
-#respuesta {
-    width: 15em;
-    height: 15em;
-    border: 2px solid white;
-    border-radius: 10em;
-    margin-top: 50px;
+.card img {
+    background-color: var(--text-claro);
+    width: 250px;
 }
-.musica {
-    background-color: var(--bg-oscuro);
-    width: 100vw;
+.card-title {
+    color: chocolate;
 }
-#loading {
-    display: none;
+.card a {
+    text-decoration: none;
 }
 /*FOOTER*/
 .redes {
@@ -50,15 +44,9 @@
     color: chocolate;
 }
 /*RESPONSIVE*/
-@media (max-width: 731px) {
-    #respuesta {
-        width: 12em;
-        height: 12em;
-    }
-}
-@media (max-width: 568px) {
-    #respuesta {
-        width: 10em;
-        height: 10em;
+@media (min-width: 768px) {
+    .card {
+        width: 280px;
+        margin-top: 100px;
     }
 }
