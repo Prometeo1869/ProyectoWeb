@@ -45,8 +45,13 @@
     border-radius: 10px;
     width: 250px;
 }
-.almanaque {
-    display: none;
+h5 {
+    color: var(--text-salmon);
+    background-color: var(--bg-oscuro-max);
+}
+iframe {
+    width: 40vw;
+    height: calc(40vw*9/16);
 }
 /*FOOTER*/
 .redes {
@@ -62,15 +67,9 @@
     color: var(--text-salmon);
 }
 /*RESPONSIVE*/
-@media (max-width: 525px) {
-    .card {
-        display: none;
-    }
-    .almanaque {
-        display: block;
-        margin-top: 25px;
-    }
-    .almanaque img {
+@media (max-width: 767px) {
+    iframe {
         width: 100vw;
+        height: calc(100vw*9/16);
     }
 }
