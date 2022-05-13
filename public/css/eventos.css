@@ -36,14 +36,9 @@
     background: var(--bg-primario);
     border: 0;
 }
-.card-body {
-}
 .apartados a {
     color: var(--text-claro);
     border-radius: 5px;
-}
-.apartados a:hover {
-    border: 2px solir red;
 }
 .btn-estaciones{
     height: 50px;
