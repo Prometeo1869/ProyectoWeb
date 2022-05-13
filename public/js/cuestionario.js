@@ -17,7 +17,7 @@ function enviarDatos() {
         document.getElementById('cuestionario').style.display = "none";
         document.getElementById('enviar_formulario').style.display = "none";
         document.getElementById('titulo1').style.display = "none";
-        document.getElementById('puntuacion').style.display = "block";
+        document.getElementById('puntuacion').style.display = "flex";
         document.getElementById('mensaje_aprobado').style.display = "block";
     }
 }

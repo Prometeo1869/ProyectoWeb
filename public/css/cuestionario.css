@@ -51,6 +51,7 @@ h5:hover {
     background-color: var(--bg-oscuro);
     border: 5px solid chocolate;
     border-radius: 30px;
+    align-items: center;
 }
 .boton_submit {
     height: 50px;
