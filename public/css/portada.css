@@ -14,14 +14,6 @@
     text-shadow: 1px 1px 3px var(--bg-oscuro-max);
     scroll-behavior: smooth;
 }
-.portada-body::-webkit-scrollbar {
-    width: 15px;
-    background: var(--degradado);
-}
-.portada-body::-webkit-scrollbar-thumb {
-    background: var(--text-naranja);
-    border-radius: 10px;
-}
 .portada-img img {
     width: 65vw;
 }
