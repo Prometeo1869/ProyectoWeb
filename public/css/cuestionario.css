@@ -52,6 +52,7 @@ h5:hover {
     border: 5px solid chocolate;
     border-radius: 30px;
     align-items: center;
+    justify-content: center;
 }
 .boton_submit {
     height: 50px;
