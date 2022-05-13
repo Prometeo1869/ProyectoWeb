@@ -1,14 +1,6 @@
 .abrir-menu {
     color: chocolate;
 }
-::-webkit-scrollbar {
-    width: 15px;
-    background: var(--degradado);
-}
-::-webkit-scrollbar-thumb {
-    background: chocolate;
-    border-radius: 10px;
-}
 /*RUTA*/
 .indice a:hover {
     color: chocolate;

@@ -1,14 +1,6 @@
 .abrir-menu {
     color: chartreuse;
 }
-::-webkit-scrollbar {
-    width: 15px;
-    background: var(--degradado);
-}
-::-webkit-scrollbar-thumb {
-    background: chartreuse;
-    border-radius: 10px;
-}
 /*RUTA*/
 .indice a:hover {
     color: chartreuse;
