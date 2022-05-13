@@ -1,6 +1,14 @@
 .abrir-menu {
     color: var(--text-salmon);
 }
+::-webkit-scrollbar {
+    width: 15px;
+    background: var(--degradado);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--text-salmon);
+    border-radius: 10px;
+}
 /*BARRA SECUNDARIA*/
 .indice a:hover {
     color: var(--text-salmon);
@@ -22,10 +30,13 @@
     background: var(--bg-primario);
     border: 0;
     margin-top: 70px;
+    width: 80vw;
 }
 .card-header {
     background: var(--bg-primario);
     border: 0;
+}
+.card-body {
 }
 .apartados a {
     color: var(--text-claro);
@@ -74,5 +85,8 @@ iframe {
     }
     .img-calendar {
         width: 99vw;
+    }
+    .card {
+        width: 100vw;
     }
 }

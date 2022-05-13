@@ -1,6 +1,14 @@
 .abrir-menu {
     color: var(--text-turquesa);
 }
+::-webkit-scrollbar {
+    width: 15px;
+    background: var(--degradado);
+}
+::-webkit-scrollbar-thumb {
+    background: var(--text-turquesa);
+    border-radius: 10px;
+}
 /*RUTA*/
 .indice a:hover {
     color: var(--text-turquesa);

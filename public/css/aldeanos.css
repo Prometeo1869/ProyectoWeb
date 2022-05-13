@@ -1,6 +1,14 @@
 .abrir-menu {
     color: violet;
 }
+::-webkit-scrollbar {
+    width: 15px;
+    background: var(--degradado);
+}
+::-webkit-scrollbar-thumb {
+    background: violet;
+    border-radius: 10px;
+}
 .aldeanos-body {
     position: absolute;
     left:10px;

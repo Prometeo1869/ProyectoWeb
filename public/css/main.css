@@ -14,14 +14,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
-::-webkit-scrollbar {
-    display: none;
+    max-width: 100%;
+    scroll-behavior: smooth;
+    user-select: none;
 }
 html {
     margin-left: calc(100vw - 100%);
     margin-right: 0;
-   }
+}
 body {
     font-family: Cardana, Verdana, Geneva, Tahoma, sans-serif;
     background-color: var(--bg-primario);
@@ -176,10 +176,11 @@ footer {
     .nav-item a:hover {
         background: var(--bg-oscuro-max);
     }
-}
-@media (max-width: 768px) {
     .indice {
         display: none;
+    }
+    ::-webkit-scrollbar {
+    display: none;
     }
 }
 @media (max-width: 1130px) {
