@@ -18,12 +18,14 @@
     overflow: auto;
     height: calc(100vh - 80px);
     padding-top: 50px;
+    margin: 0;
 }
 .caja {
     text-shadow: 1px 1px 1px var(--bg-oscuro-max);
     background-color: var(--bg-oscuro);
     border: 5px solid chocolate;
     border-radius: 30px;
+    margin: 0;
 }
 #respuesta {
     width: 15em;

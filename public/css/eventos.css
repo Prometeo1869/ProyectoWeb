@@ -17,6 +17,7 @@
     justify-content: space-evenly;
     overflow:auto;
     height: calc(100vh - 80px);
+    margin: 0;
 }
 .card {
     background: var(--bg-primario);

@@ -13,7 +13,9 @@
     padding-top: 50px;
     text-shadow: 1px 1px 3px var(--bg-oscuro-max);
     scroll-behavior: smooth;
+    margin-left: 0;
 }
+
 .portada-img img {
     width: 65vw;
 }

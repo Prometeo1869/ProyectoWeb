@@ -16,6 +16,7 @@
     right: 10px;
     justify-content: space-evenly;
     height: calc(100vh - 80px);
+    margin: 0;
 }
 .card {
     width: 300px;
